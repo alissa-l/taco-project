@@ -1,30 +1,41 @@
 import xlrd
 import pandas as pd
 import numpy as np
+import utils
 
 def main():
     taco = xlrd.open_workbook('../data/Taco_4a_edicao_2011.xls')
-    worksheet_1 = taco.sheet_by_index(1)
+    worksheet = taco.sheet_by_index(0)
 
-    categorias = {}
+    nutrientes = utils.get_nutrientes(worksheet)
 
-    for n_row in range(worksheet_1.nrows):
+    unidades = utils.get_unidades(worksheet)
 
-        row = worksheet_1.row(n_row)
+    nutrientes_unidades = dict(zip(nutrientes, unidades))
+    
+    categorias = utils.get_categorias(worksheet)
 
-        if type(row[0].value) == str and row[0].value[0:2] != 'Nú' and row[0].value != 'Alimento' and row[0].value != '':
-            categorias[row[0].value] = n_row
+    utils.get_alimentos(worksheet, categorias)
+
+
+    
+
+   
 
     antes = 0
     for key in categorias:
+        break
+        print('\n\n\n')
+        print(key, end='\n')
         if antes == 0:
             antes = categorias[key]
+            continue
         else:
             for i in range(antes, categorias[key]):
-                if worksheet_1.row(i)[0].value != '':
-                    print(worksheet_1.row(i))
-                print(worksheet_1.row(i))
-            break
+                if worksheet.row(i)[0].value != '':
+                    #print(worksheet.row(i))
+                    print('', end='')
+            antes = categorias[key]
 
 if __name__ == '__main__':
     main()

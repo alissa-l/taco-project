@@ -1,0 +1,73 @@
+import numpy as np
+
+def get_nutrientes(worksheet):
+    nutrientes = []
+    for i in range(0, len(worksheet.row(0))):
+        value = ""
+        if i > 1:
+            primeira_linha = worksheet.row(0)[i].value
+            segunda_linha = worksheet.row(1)[i].value
+            if worksheet.row(0)[i].value != '':
+                value = primeira_linha.replace('-', '') + segunda_linha
+            if worksheet.row(1)[i].value == '':
+                value = "Energia"
+            else:
+                value = segunda_linha
+
+            nutrientes.append(value)
+
+    return nutrientes
+
+def get_unidades(worksheet):
+    unidades = []
+    for i in range(0, len(worksheet.row(0))):
+        if i > 1:
+            if worksheet.row(2)[i].value != '':
+                unidades.append(worksheet.row(2)[i].value)
+
+    return unidades
+
+def get_categorias(worksheet):
+    categorias = {}
+
+    for n_row in range(worksheet.nrows):
+
+        row = worksheet.row(n_row)
+
+        if type(row[0].value) == str and row[0].value[0:2] != 'Nú' and row[0].value != 'Alimento' and row[0].value != '':
+            categorias[row[0].value] = n_row + 1
+
+    return categorias
+
+def get_alimentos(worksheet, categorias):
+    data = []
+
+    indices = []
+    for key in categorias:
+        indices.append(categorias[key])
+    
+
+    lines = np.array([])
+    indice_index = 0
+    
+    for i in range(worksheet.nrows):
+        added = 0
+
+        if indice_index == len(indices) - 1:
+            break
+
+        if i > indices[indice_index] and i < indices[indice_index + 1]:
+            print('nb')
+            np.append(lines, i)
+            continue
+        
+        print('aa')
+        indice_index += 1
+
+    for i in lines:
+        print(i)
+            
+            
+
+    #print(data)
+
