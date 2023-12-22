@@ -39,34 +39,74 @@ def get_categorias(worksheet):
 
     return categorias
 
-def get_alimentos(worksheet, categorias):
-    data = []
+def alimentos_linhas(worksheet, categorias):
 
     indices = []
     for key in categorias:
         indices.append(categorias[key])
     
 
-    lines = np.array([])
+    linhas = []
     indice_index = 0
     
     for i in range(worksheet.nrows):
-        added = 0
 
         if indice_index == len(indices) - 1:
             break
-
+        
         if i > indices[indice_index] and i < indices[indice_index + 1]:
-            print('nb')
-            np.append(lines, i)
+            linhas.append(i)
             continue
         
-        print('aa')
-        indice_index += 1
+        if i > indices[indice_index] and i > indices[indice_index + 1]:
+            indice_index += 1
 
-    for i in lines:
-        print(i)
+    return linhas
+
+def get_alimentos(worksheet, categorias):
+    
+    linhas = alimentos_linhas(worksheet, categorias)
+    
+    # Alimentos = {Categoria:[{alimento:numero_alimento}]}
+    alimentos = {}
+
+    indices = list(categorias.values())
+    print(indices)
+    indice_index = 0
+
+    for key in categorias:
+        alimentos[key] = []
+
+        for i in linhas:
+
+            if indice_index == len(indices) - 1:
+                row = worksheet.row(i-1)
+                nome = row[1].value
             
+                if nome != '':
+                    alimento_dict = {nome : i}
+                    alimentos[key].append(alimento_dict)
+
+            elif i > indices[indice_index] and i < indices[indice_index + 1]:
+                row = worksheet.row(i-3)
+                nome = row[1].value
+            
+                if nome != '':
+                    alimento_dict = {nome : i}
+                    alimentos[key].append(alimento_dict)
+                
+    
+        indice_index += 1
+   
+    
+    for key in alimentos:
+        print(key)
+        print(alimentos[key])
+        print('\n\n')
+
+
+
+        
             
 
     #print(data)
