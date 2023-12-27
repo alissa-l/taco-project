@@ -1,5 +1,6 @@
 import xlrd
 import pandas as pd
+import json
 
 def get_nutrientes(worksheet):
     nutrientes = []
@@ -69,8 +70,6 @@ def get_alimentos(worksheet, categorias):
     alimentos = []
     for key in categorias:
         if key != '':
-            #print(key)
-            #print(categorias[key])
             for row in categorias[key]:
                 linha = worksheet.row(row)
                 linha.pop(0)
@@ -78,7 +77,7 @@ def get_alimentos(worksheet, categorias):
                 alimento = []
                 alimento.append(key)
                 for i in linha:
-                    if i.value != '':
+                    if i.value != '' and i.value != 'NA' and i.value != 'Tr' and i:
                         alimento.append(i.value)
                     else:
                         alimento.append(0)
@@ -106,3 +105,21 @@ def export(nutrientes, unidades, alimentos):
     df = pd.DataFrame(alimentos, columns=colunas)
 
     df.to_csv('../data/taco2011.csv', index=False, encoding='utf-8')
+
+def jsonify():
+
+    df = pd.read_csv('../data/taco2011.csv')
+    final_json = {'Data': {}}
+
+    for i in df['Categoria'].unique():
+        final_json['Data'][i] = []
+
+    for j in df.to_dict('records'):
+        cat = j['Categoria']
+        final_json['Data'][cat].append(j)
+
+    # for j in df.iterrows():
+    #     for i in df['Categoria'].unique():
+    #         final_json['Data'][i].append({j: df[df['Categoria'] == i][j].tolist()})
+    
+    json.dump(final_json, open('../data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
