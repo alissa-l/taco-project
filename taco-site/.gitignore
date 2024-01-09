@@ -1,10 +1,4 @@
-scripts/.venv/
-data/*.json
-data/*.csv
-
-*.pyc
-*.pyo
-
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -13,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-taco-site/node_modules
+node_modules
 .DS_Store
 dist
 dist-ssr
@@ -25,8 +19,6 @@ coverage
 
 # Editor directories and files
 .vscode/*
-taco-site/.vscode/
-
 !.vscode/extensions.json
 .idea
 *.suo
