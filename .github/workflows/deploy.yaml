@@ -39,6 +39,7 @@ jobs:
           node-version: 18
           cache: 'npm'
       - name: Install dependencies
+      - cache-dependency-path: ./taco-site/package-lock.json
         run: npm install
       - name: Build
         run: npm run build
