@@ -132,3 +132,4 @@ def jsonify(nutrientes, unidades):
     
     
     json.dump(final_json, open('../data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
+    json.dump(final_json, open('../taco-site/src/assets/data/taco2011.json', 'w'), indent=4, ensure_ascii=False)

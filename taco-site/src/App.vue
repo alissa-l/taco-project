@@ -26,7 +26,7 @@
 
 //Se precisar dividir os repos
 //import tacoData from "./taco_data/taco2011.json";
-import tacoData from "../../data/taco2011.json";
+import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
 
 export default {
