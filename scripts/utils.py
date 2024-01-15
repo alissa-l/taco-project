@@ -1,6 +1,7 @@
 import xlrd
 import pandas as pd
 import json
+from unidecode import unidecode
 
 def get_nutrientes(worksheet):
     nutrientes = []
@@ -12,17 +13,20 @@ def get_nutrientes(worksheet):
             if worksheet.row(0)[i].value != '':
                 value = primeira_linha.replace('-', '') + segunda_linha
             if worksheet.row(1)[i].value == '':
-                value = "EnergiaKj"
+                value = "energiaKj"
             else:
                 value = segunda_linha
                 if value == 'idrato':
-                    value = 'Carboidrato'
+                    value = 'carboidrato'
                 if value == 'C':
-                    value = 'Vitamina C'
+                    value = 'vitaminac'
 
-            nutrientes.append(value)
+            nutrientes.append(str(value).lower())
     
-    nutrientes[0] = "Umidade"
+    nutrientes[0] = "umidade"
+
+    for i in range(0, len(nutrientes)):
+        nutrientes[i] = unidecode(nutrientes[i])
 
     return nutrientes
 
@@ -61,6 +65,8 @@ def get_categorias(worksheet):
 
         if row[0].value == 'XXX':
             lines = []
+
+    
         
     return categorias
 
@@ -82,7 +88,7 @@ def get_alimentos(worksheet, categorias):
                     else:
                         alimento.append(0)
                 alimentos.append(alimento)
-                
+    
     return alimentos
 
 def extractor():
@@ -96,30 +102,33 @@ def extractor():
 
     return nutrientes, unidades, alimentos
 
-def export(nutrientes, unidades, alimentos):
-    colunas = ['Categoria', 'Alimento']
+def export(nutrientes, alimentos):
+    colunas = ['categoria', 'alimento']
     
     for i in range(0, len(nutrientes)):
-        colunas.append(f'{nutrientes[i]} {unidades[i]}')
+        colunas.append(f'{nutrientes[i]}')
 
     df = pd.DataFrame(alimentos, columns=colunas)
 
     df.to_csv('../data/taco2011.csv', index=False, encoding='utf-8')
 
-def jsonify():
+def jsonify(nutrientes, unidades):
 
     df = pd.read_csv('../data/taco2011.csv')
-    final_json = {'Data': {}}
+    final_json = {'Categorias': [], 'NutrientesUnidades': {}, 'Data': {}}
 
-    for i in df['Categoria'].unique():
+    for i in range(0, len(nutrientes)):
+        final_json['NutrientesUnidades'][nutrientes[i]] = unidades[i] 
+
+    for i in df['categoria'].unique():
+        final_json['Categorias'].append(i)
         final_json['Data'][i] = []
 
+
     for j in df.to_dict('records'):
-        cat = j['Categoria']
+        cat = j['categoria']
         final_json['Data'][cat].append(j)
 
-    # for j in df.iterrows():
-    #     for i in df['Categoria'].unique():
-    #         final_json['Data'][i].append({j: df[df['Categoria'] == i][j].tolist()})
+    
     
     json.dump(final_json, open('../data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
