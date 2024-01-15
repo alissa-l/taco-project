@@ -27,9 +27,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./taco-site
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,17 +36,19 @@ jobs:
           node-version: 18
           cache: 'npm'
       - name: Install dependencies
-      - cache-dependency-path: ./taco-site/package-lock.json
+        working-directory: ./taco-site
         run: npm install
       - name: Build
+        working-directory: ./taco-site
         run: npm run build
       - name: Setup Pages
+        working-directory: ./taco-site
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload dist repository
-          path: './dist'
+          path: '.taco-site/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
