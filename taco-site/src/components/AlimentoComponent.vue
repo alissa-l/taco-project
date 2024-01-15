@@ -10,7 +10,6 @@
 
 <script>
 
-import { Alimento } from "../classes/alimento.js";
 
 export default {
     name: 'Alimento',

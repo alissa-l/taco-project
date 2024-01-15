@@ -1,25 +1,23 @@
 <template>
 
-
-  <div class="container">
-
-    <div class="row" v-for="chunk in alimentosChunked">
-
-
-
+<div class="container">
+    <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
       <div class="col" v-for="alimento in chunk">
-
         <AlimentoComponent :alimentoObj="alimento" >
         </AlimentoComponent>
-
       </div>
-    
     </div>
-
-
   </div>
 
-  
+  <div class="container">
+    <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
+      <div class="col" v-for="alimento in chunk">
+        <AlimentoComponent :alimentoObj="alimento" >
+        </AlimentoComponent>
+      </div>
+    </div>
+  </div>
+
 </template>
 
 <script>
@@ -37,6 +35,7 @@ export default {
           alimentos: [],
           alimentosChunked: [],
           unidades: [],
+          showAlimentos: false,
         }
     },
     beforeMount() {
