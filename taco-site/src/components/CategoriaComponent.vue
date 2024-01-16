@@ -1,7 +1,7 @@
 
 <template>
 
-    <img src="assets/" alt="">
+    <img  alt="">
     <h2 class="nomeAlimento">{{ alimento }}</h2>
 
 </template>

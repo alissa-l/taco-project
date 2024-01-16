@@ -1,10 +1,10 @@
 <template>
 
-<div class="container">
-    <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
-      <div class="col" v-for="alimento in chunk">
-        <AlimentoComponent :alimentoObj="alimento" >
-        </AlimentoComponent>
+  <div class="container">
+    <div v-if="showCategorias" class="row" v-for="chunk in categorias">
+      <div class="col" v-for="categoria in chunk">
+        <CategoriaComponent :categoria="categoria" >
+        </CategoriaComponent>
       </div>
     </div>
   </div>
@@ -23,7 +23,6 @@
 <script>
 
 //Se precisar dividir os repos
-//import tacoData from "./taco_data/taco2011.json";
 import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
 
@@ -36,6 +35,7 @@ export default {
           alimentosChunked: [],
           unidades: [],
           showAlimentos: false,
+          showCategorias: true,
         }
     },
     beforeMount() {
@@ -45,7 +45,10 @@ export default {
         getData() {
 
 
-          let categorias = tacoData['Categorias'];
+          this.categorias = tacoData['Categorias'];
+          
+          console.log(this.categoriass)
+
           let myData = tacoData['Data'];
           let unidades = tacoData['NutrientesUnidades'];
 
