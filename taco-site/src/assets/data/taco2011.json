@@ -45,8 +45,8 @@
         "vitaminac": "(mg)"
     },
     "Data": {
-        "Cereais e derivados": [
-            {
+        "Cereais e derivados": {
+            "Arroz, integral, cozido": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, integral, cozido",
                 "umidade": "70.1386666666667",
@@ -76,7 +76,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Arroz, integral, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, integral, cru",
                 "umidade": "12.1798333333333",
@@ -106,7 +106,7 @@
                 "niacina": "4.18333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Arroz, tipo 1, cozido": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, tipo 1, cozido",
                 "umidade": "69.1136666666667",
@@ -136,7 +136,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Arroz, tipo 1, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, tipo 1, cru",
                 "umidade": "13.2245",
@@ -166,7 +166,7 @@
                 "niacina": "1.11666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Arroz, tipo 2, cozido": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, tipo 2, cozido",
                 "umidade": "68.7276666666667",
@@ -196,7 +196,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Arroz, tipo 2, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Arroz, tipo 2, cru",
                 "umidade": "13.16475",
@@ -226,7 +226,7 @@
                 "niacina": "0.918333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Aveia, flocos, crua": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Aveia, flocos, crua",
                 "umidade": "9.13333333333333",
@@ -256,7 +256,7 @@
                 "niacina": "4.47",
                 "vitaminac": "1.35"
             },
-            {
+            "Biscoito, doce, maisena": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, doce, maisena",
                 "umidade": "3.21666666666667",
@@ -286,7 +286,7 @@
                 "niacina": "3.90666666666667",
                 "vitaminac": "6.21666666666667"
             },
-            {
+            "Biscoito, doce, recheado com chocolate": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, doce, recheado com chocolate",
                 "umidade": "2.18333333333333",
@@ -316,7 +316,7 @@
                 "niacina": "2.52333333333333",
                 "vitaminac": "3.52666666666667"
             },
-            {
+            "Biscoito, doce, recheado com morango": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, doce, recheado com morango",
                 "umidade": "2.73333333333333",
@@ -346,7 +346,7 @@
                 "niacina": "1.49666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Biscoito, doce, wafer, recheado de chocolate": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, doce, wafer, recheado de chocolate",
                 "umidade": "1.17",
@@ -376,7 +376,7 @@
                 "niacina": "1.12",
                 "vitaminac": "0"
             },
-            {
+            "Biscoito, doce, wafer, recheado de morango": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, doce, wafer, recheado de morango",
                 "umidade": "1.17333333333333",
@@ -406,7 +406,7 @@
                 "niacina": "0.373333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Biscoito, salgado, cream cracker": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Biscoito, salgado, cream cracker",
                 "umidade": "4.05666666666667",
@@ -436,7 +436,7 @@
                 "niacina": "7.13666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Bolo, mistura para": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Bolo, mistura para",
                 "umidade": "1.0",
@@ -466,7 +466,7 @@
                 "niacina": "1.51666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Bolo, pronto, aipim": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Bolo, pronto, aipim",
                 "umidade": "34.1336666666667",
@@ -496,7 +496,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Bolo, pronto, chocolate": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Bolo, pronto, chocolate",
                 "umidade": "19.2763333333333",
@@ -526,7 +526,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Bolo, pronto, coco": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Bolo, pronto, coco",
                 "umidade": "29.3203333333333",
@@ -556,7 +556,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Bolo, pronto, milho": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Bolo, pronto, milho",
                 "umidade": "36.6883333333333",
@@ -586,7 +586,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Canjica, branca, crua": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Canjica, branca, crua",
                 "umidade": "13.557",
@@ -616,7 +616,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Canjica, com leite integral": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Canjica, com leite integral",
                 "umidade": "72.494",
@@ -646,7 +646,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cereais, milho, flocos, com sal": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereais, milho, flocos, com sal",
                 "umidade": "9.29333333333334",
@@ -676,7 +676,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cereais, milho, flocos, sem sal": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereais, milho, flocos, sem sal",
                 "umidade": "11.2233333333333",
@@ -706,7 +706,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cereais, mingau, milho, infantil": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereais, mingau, milho, infantil",
                 "umidade": "4.70333333333333",
@@ -736,7 +736,7 @@
                 "niacina": "24.1633333333333",
                 "vitaminac": "109.366666666667"
             },
-            {
+            "Cereais, mistura para vitamina, trigo, cevada e aveia": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereais, mistura para vitamina, trigo, cevada e aveia",
                 "umidade": "4.36666666666667",
@@ -766,7 +766,7 @@
                 "niacina": "7.45666666666667",
                 "vitaminac": "13.1066666666667"
             },
-            {
+            "Cereal matinal, milho": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereal matinal, milho",
                 "umidade": "5.52666666666667",
@@ -796,7 +796,7 @@
                 "niacina": "11.04",
                 "vitaminac": "17.2933333333333"
             },
-            {
+            "Cereal matinal, milho, açúcar": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Cereal matinal, milho, açúcar",
                 "umidade": "4.26666666666667",
@@ -826,7 +826,7 @@
                 "niacina": "10.1333333333333",
                 "vitaminac": "14.55"
             },
-            {
+            "Creme de arroz, pó": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Creme de arroz, pó",
                 "umidade": "7.333",
@@ -856,7 +856,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Creme de milho, pó": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Creme de milho, pó",
                 "umidade": "5.652",
@@ -886,7 +886,7 @@
                 "niacina": "0",
                 "vitaminac": "96.34"
             },
-            {
+            "Curau, milho verde": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Curau, milho verde",
                 "umidade": "81.5646666666667",
@@ -916,7 +916,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Curau, milho verde, mistura para": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Curau, milho verde, mistura para",
                 "umidade": "3.91633333333333",
@@ -946,7 +946,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de arroz, enriquecida": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, de arroz, enriquecida",
                 "umidade": "12.6933333333333",
@@ -976,7 +976,7 @@
                 "niacina": "24.4233333333333",
                 "vitaminac": "173.586666666667"
             },
-            {
+            "Farinha, de centeio, integral": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, de centeio, integral",
                 "umidade": "10.7766666666667",
@@ -1006,7 +1006,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de milho, amarela": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, de milho, amarela",
                 "umidade": "11.7733333333333",
@@ -1036,7 +1036,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de rosca": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, de rosca",
                 "umidade": "9.80666666666667",
@@ -1066,7 +1066,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de trigo": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, de trigo",
                 "umidade": "12.98",
@@ -1096,7 +1096,7 @@
                 "niacina": "0.89",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, láctea, de cereais": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Farinha, láctea, de cereais",
                 "umidade": "2.69666666666667",
@@ -1126,7 +1126,7 @@
                 "niacina": "9.5",
                 "vitaminac": "24.31"
             },
-            {
+            "Lasanha, massa fresca, cozida": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Lasanha, massa fresca, cozida",
                 "umidade": "59.6463333333333",
@@ -1156,7 +1156,7 @@
                 "niacina": "3.96",
                 "vitaminac": " "
             },
-            {
+            "Lasanha, massa fresca, crua": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Lasanha, massa fresca, crua",
                 "umidade": "44.9856666666667",
@@ -1186,7 +1186,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Macarrão, instantâneo": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Macarrão, instantâneo",
                 "umidade": "5.97333333333333",
@@ -1216,7 +1216,7 @@
                 "niacina": "9.36666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Macarrão, trigo, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Macarrão, trigo, cru",
                 "umidade": "10.2433333333333",
@@ -1246,7 +1246,7 @@
                 "niacina": "3.56666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Macarrão, trigo, cru, com ovos": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Macarrão, trigo, cru, com ovos",
                 "umidade": "10.5633333333333",
@@ -1276,7 +1276,7 @@
                 "niacina": "4.37",
                 "vitaminac": "0"
             },
-            {
+            "Milho, amido, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Milho, amido, cru",
                 "umidade": "12.18333",
@@ -1306,7 +1306,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Milho, fubá, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Milho, fubá, cru",
                 "umidade": "11.4533333333333",
@@ -1336,7 +1336,7 @@
                 "niacina": "0.746666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Milho, verde, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Milho, verde, cru",
                 "umidade": "63.5383333333333",
@@ -1366,7 +1366,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Milho, verde, enlatado, drenado": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Milho, verde, enlatado, drenado",
                 "umidade": "76.2233333333333",
@@ -1396,7 +1396,7 @@
                 "niacina": "3.73666666666667",
                 "vitaminac": "1.74333333333333"
             },
-            {
+            "Mingau tradicional, pó": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Mingau tradicional, pó",
                 "umidade": "8.14333333333333",
@@ -1426,7 +1426,7 @@
                 "niacina": "19.3933333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pamonha, barra para cozimento, pré-cozida": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pamonha, barra para cozimento, pré-cozida",
                 "umidade": "61.3073333333333",
@@ -1456,7 +1456,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, aveia, forma": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, aveia, forma",
                 "umidade": "19.9166666666667",
@@ -1486,7 +1486,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, de soja": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, de soja",
                 "umidade": "26.0333333333333",
@@ -1516,7 +1516,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, glúten, forma": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, glúten, forma",
                 "umidade": "40.6733333333333",
@@ -1546,7 +1546,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, milho, forma": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, milho, forma",
                 "umidade": "30.4166666666667",
@@ -1576,7 +1576,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, trigo, forma, integral": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, trigo, forma, integral",
                 "umidade": "34.7233333333333",
@@ -1606,7 +1606,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pão, trigo, francês": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, trigo, francês",
                 "umidade": "28.4833333333333",
@@ -1636,7 +1636,7 @@
                 "niacina": "2.33666666666667",
                 "vitaminac": " "
             },
-            {
+            "Pão, trigo, sovado": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pão, trigo, sovado",
                 "umidade": "25.7633333333333",
@@ -1666,7 +1666,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pastel, de carne, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, de carne, cru",
                 "umidade": "34.3983333333333",
@@ -1696,7 +1696,7 @@
                 "niacina": "1.58",
                 "vitaminac": "0"
             },
-            {
+            "Pastel, de carne, frito": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, de carne, frito",
                 "umidade": "22.9233333333333",
@@ -1726,7 +1726,7 @@
                 "niacina": "1.83",
                 "vitaminac": "0"
             },
-            {
+            "Pastel, de queijo, cru": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, de queijo, cru",
                 "umidade": "31.2833333333333",
@@ -1756,7 +1756,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pastel, de queijo, frito": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, de queijo, frito",
                 "umidade": "17.541",
@@ -1786,7 +1786,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pastel, massa, crua": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, massa, crua",
                 "umidade": "27.066",
@@ -1816,7 +1816,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Pastel, massa, frita": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pastel, massa, frita",
                 "umidade": "0.969",
@@ -1846,7 +1846,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Pipoca, com óleo de soja, sem sal": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Pipoca, com óleo de soja, sem sal",
                 "umidade": "2.819",
@@ -1876,7 +1876,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Polenta, pré-cozida": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Polenta, pré-cozida",
                 "umidade": "72.74",
@@ -1906,7 +1906,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Torrada, pão francês": {
                 "categoria": "Cereais e derivados",
                 "alimento": "Torrada, pão francês",
                 "umidade": "9.047",
@@ -1936,9 +1936,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Verduras, hortaliças e derivados": [
-            {
+        },
+        "Verduras, hortaliças e derivados": {
+            "Abóbora, cabotian, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, cabotian, cozida",
                 "umidade": "86.354",
@@ -1968,7 +1968,7 @@
                 "niacina": "0",
                 "vitaminac": "7.46333333333333"
             },
-            {
+            "Abóbora, cabotian, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, cabotian, crua",
                 "umidade": "88.52",
@@ -1998,7 +1998,7 @@
                 "niacina": "0",
                 "vitaminac": "5.09"
             },
-            {
+            "Abóbora, menina brasileira, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, menina brasileira, crua",
                 "umidade": "95.69",
@@ -2028,7 +2028,7 @@
                 "niacina": "0",
                 "vitaminac": "1.5"
             },
-            {
+            "Abóbora, moranga, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, moranga, crua",
                 "umidade": "95.87",
@@ -2058,7 +2058,7 @@
                 "niacina": "0",
                 "vitaminac": "9.64666666666667"
             },
-            {
+            "Abóbora, moranga, refogada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, moranga, refogada",
                 "umidade": "92.4573333333333",
@@ -2088,7 +2088,7 @@
                 "niacina": "0",
                 "vitaminac": "6.72666666666667"
             },
-            {
+            "Abóbora, pescoço, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abóbora, pescoço, crua",
                 "umidade": "92.493",
@@ -2118,7 +2118,7 @@
                 "niacina": "0",
                 "vitaminac": "2.09"
             },
-            {
+            "Abobrinha, italiana, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abobrinha, italiana, cozida",
                 "umidade": "95.2823333333333",
@@ -2148,7 +2148,7 @@
                 "niacina": "0",
                 "vitaminac": "2.13"
             },
-            {
+            "Abobrinha, italiana, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abobrinha, italiana, crua",
                 "umidade": "93.8633333333334",
@@ -2178,7 +2178,7 @@
                 "niacina": "0",
                 "vitaminac": "6.87333333333333"
             },
-            {
+            "Abobrinha, italiana, refogada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abobrinha, italiana, refogada",
                 "umidade": "93.4916666666667",
@@ -2208,7 +2208,7 @@
                 "niacina": "0",
                 "vitaminac": "7.53"
             },
-            {
+            "Abobrinha, paulista, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Abobrinha, paulista, crua",
                 "umidade": "90.8506666666667",
@@ -2238,7 +2238,7 @@
                 "niacina": "0",
                 "vitaminac": "17.5466666666667"
             },
-            {
+            "Acelga, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Acelga, crua",
                 "umidade": "93.1856666666667",
@@ -2268,7 +2268,7 @@
                 "niacina": "0",
                 "vitaminac": "22.55"
             },
-            {
+            "Agrião, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Agrião, cru",
                 "umidade": "93.9433333333333",
@@ -2298,7 +2298,7 @@
                 "niacina": "1.19333333333333",
                 "vitaminac": "60.1"
             },
-            {
+            "Aipo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Aipo, cru",
                 "umidade": "93.828",
@@ -2328,7 +2328,7 @@
                 "niacina": "0",
                 "vitaminac": "5.88"
             },
-            {
+            "Alface, americana, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alface, americana, crua",
                 "umidade": "97.1686666666666",
@@ -2358,7 +2358,7 @@
                 "niacina": "0",
                 "vitaminac": "10.96"
             },
-            {
+            "Alface, crespa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alface, crespa, crua",
                 "umidade": "96.0933333333333",
@@ -2388,7 +2388,7 @@
                 "niacina": "1.09333333333333",
                 "vitaminac": "15.5766666666667"
             },
-            {
+            "Alface, lisa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alface, lisa, crua",
                 "umidade": "95.0",
@@ -2418,7 +2418,7 @@
                 "niacina": "0.75",
                 "vitaminac": "21.39"
             },
-            {
+            "Alface, roxa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alface, roxa, crua",
                 "umidade": "95.7283333333333",
@@ -2448,7 +2448,7 @@
                 "niacina": "0",
                 "vitaminac": "13.4733333333333"
             },
-            {
+            "Alfavaca, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alfavaca, crua",
                 "umidade": "90.2076666666667",
@@ -2478,7 +2478,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Alho, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alho, cru",
                 "umidade": "67.5466666666667",
@@ -2508,7 +2508,7 @@
                 "niacina": "0",
                 "vitaminac": "*"
             },
-            {
+            "Alho-poró, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Alho-poró, cru",
                 "umidade": "90.952",
@@ -2538,7 +2538,7 @@
                 "niacina": "0.34",
                 "vitaminac": "14.1466666666667"
             },
-            {
+            "Almeirão, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Almeirão, cru",
                 "umidade": "93.67",
@@ -2568,7 +2568,7 @@
                 "niacina": "0.626666666666667",
                 "vitaminac": "1.68666666666667"
             },
-            {
+            "Almeirão, refogado": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Almeirão, refogado",
                 "umidade": "86.5446666666667",
@@ -2598,7 +2598,7 @@
                 "niacina": "4.03333333333333",
                 "vitaminac": "1.47"
             },
-            {
+            "Batata, baroa, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, baroa, cozida",
                 "umidade": "79.2606666666667",
@@ -2628,7 +2628,7 @@
                 "niacina": "1.98",
                 "vitaminac": "17.1"
             },
-            {
+            "Batata, baroa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, baroa, crua",
                 "umidade": "73.69",
@@ -2658,7 +2658,7 @@
                 "niacina": "0",
                 "vitaminac": "7.55"
             },
-            {
+            "Batata, doce, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, doce, cozida",
                 "umidade": "80.425",
@@ -2688,7 +2688,7 @@
                 "niacina": "2.57333333333333",
                 "vitaminac": "23.7866666666667"
             },
-            {
+            "Batata, doce, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, doce, crua",
                 "umidade": "69.5133333333333",
@@ -2718,7 +2718,7 @@
                 "niacina": "0",
                 "vitaminac": "16.48"
             },
-            {
+            "Batata, frita, tipo chips, industrializada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, frita, tipo chips, industrializada",
                 "umidade": "2.69733333333333",
@@ -2748,7 +2748,7 @@
                 "niacina": "2.61333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Batata, inglesa, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, inglesa, cozida",
                 "umidade": "86.3596666666667",
@@ -2778,7 +2778,7 @@
                 "niacina": "0",
                 "vitaminac": "3.76"
             },
-            {
+            "Batata, inglesa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, inglesa, crua",
                 "umidade": "82.87",
@@ -2808,7 +2808,7 @@
                 "niacina": "0",
                 "vitaminac": "31.0833333333333"
             },
-            {
+            "Batata, inglesa, frita": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, inglesa, frita",
                 "umidade": "44.121",
@@ -2838,7 +2838,7 @@
                 "niacina": "2.50666666666667",
                 "vitaminac": "16.3433333333333"
             },
-            {
+            "Batata, inglesa, sauté": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Batata, inglesa, sauté",
                 "umidade": "83.091",
@@ -2868,7 +2868,7 @@
                 "niacina": "1.38333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Berinjela, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Berinjela, cozida",
                 "umidade": "94.4316666666667",
@@ -2898,7 +2898,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Berinjela, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Berinjela, crua",
                 "umidade": "93.8033333333333",
@@ -2928,7 +2928,7 @@
                 "niacina": "0",
                 "vitaminac": "3.01"
             },
-            {
+            "Beterraba, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Beterraba, cozida",
                 "umidade": "90.5733333333333",
@@ -2958,7 +2958,7 @@
                 "niacina": "0",
                 "vitaminac": "1.24"
             },
-            {
+            "Beterraba, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Beterraba, crua",
                 "umidade": "85.9833333333333",
@@ -2988,7 +2988,7 @@
                 "niacina": "0",
                 "vitaminac": "3.11666666666667"
             },
-            {
+            "Biscoito, polvilho doce": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Biscoito, polvilho doce",
                 "umidade": "5.43733333333333",
@@ -3018,7 +3018,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Brócolis, cozido": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Brócolis, cozido",
                 "umidade": "92.617",
@@ -3048,7 +3048,7 @@
                 "niacina": "0",
                 "vitaminac": "42.0033333333333"
             },
-            {
+            "Brócolis, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Brócolis, cru",
                 "umidade": "91.22",
@@ -3078,7 +3078,7 @@
                 "niacina": "1.39",
                 "vitaminac": "34.2833333333333"
             },
-            {
+            "Cará, cozido": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cará, cozido",
                 "umidade": "78.8846666666667",
@@ -3108,7 +3108,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cará, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cará, cru",
                 "umidade": "73.6933333333333",
@@ -3138,7 +3138,7 @@
                 "niacina": "0",
                 "vitaminac": "8.78666666666667"
             },
-            {
+            "Caruru, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Caruru, cru",
                 "umidade": "87.6183333333333",
@@ -3168,7 +3168,7 @@
                 "niacina": "0",
                 "vitaminac": "5.35666666666667"
             },
-            {
+            "Catalonha, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Catalonha, crua",
                 "umidade": "91.7626666666667",
@@ -3198,7 +3198,7 @@
                 "niacina": "1.53666666666667",
                 "vitaminac": "7.33333333333333"
             },
-            {
+            "Catalonha, refogada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Catalonha, refogada",
                 "umidade": "87.4326666666667",
@@ -3228,7 +3228,7 @@
                 "niacina": "0.6",
                 "vitaminac": "0"
             },
-            {
+            "Cebola, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cebola, crua",
                 "umidade": "88.92",
@@ -3258,7 +3258,7 @@
                 "niacina": "0",
                 "vitaminac": "4.66666666666667"
             },
-            {
+            "Cebolinha, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cebolinha, crua",
                 "umidade": "93.88",
@@ -3288,7 +3288,7 @@
                 "niacina": "0",
                 "vitaminac": "31.78"
             },
-            {
+            "Cenoura, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cenoura, cozida",
                 "umidade": "91.663",
@@ -3318,7 +3318,7 @@
                 "niacina": "2.68333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Cenoura, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Cenoura, crua",
                 "umidade": "90.0833333333333",
@@ -3348,7 +3348,7 @@
                 "niacina": "0",
                 "vitaminac": "5.11666666666667"
             },
-            {
+            "Chicória, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Chicória, crua",
                 "umidade": "95.1366666666667",
@@ -3378,7 +3378,7 @@
                 "niacina": "0.683333333333333",
                 "vitaminac": "6.54333333333333"
             },
-            {
+            "Chuchu, cozido": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Chuchu, cozido",
                 "umidade": "94.5616666666667",
@@ -3408,7 +3408,7 @@
                 "niacina": "0",
                 "vitaminac": "5.56666666666667"
             },
-            {
+            "Chuchu, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Chuchu, cru",
                 "umidade": "94.8366666666667",
@@ -3438,7 +3438,7 @@
                 "niacina": "0",
                 "vitaminac": "10.6133333333333"
             },
-            {
+            "Coentro, folhas desidratadas": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Coentro, folhas desidratadas",
                 "umidade": "10.63",
@@ -3468,7 +3468,7 @@
                 "niacina": "0",
                 "vitaminac": "40.7733333333333"
             },
-            {
+            "Couve, manteiga, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Couve, manteiga, crua",
                 "umidade": "90.9",
@@ -3498,7 +3498,7 @@
                 "niacina": "2.29",
                 "vitaminac": "96.6833333333333"
             },
-            {
+            "Couve, manteiga, refogada ": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Couve, manteiga, refogada ",
                 "umidade": "81.5273333333333",
@@ -3528,7 +3528,7 @@
                 "niacina": "0",
                 "vitaminac": "76.9433333333333"
             },
-            {
+            "Couve-flor, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Couve-flor, crua",
                 "umidade": "92.77",
@@ -3558,7 +3558,7 @@
                 "niacina": "0",
                 "vitaminac": "36.05"
             },
-            {
+            "Couve-flor, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Couve-flor, cozida",
                 "umidade": "94.3383333333333",
@@ -3588,7 +3588,7 @@
                 "niacina": "0",
                 "vitaminac": "23.6966666666667"
             },
-            {
+            "Espinafre, Nova Zelândia, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Espinafre, Nova Zelândia, cru",
                 "umidade": "94.03",
@@ -3618,7 +3618,7 @@
                 "niacina": "0",
                 "vitaminac": "2.42"
             },
-            {
+            "Espinafre, Nova Zelândia, refogado": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Espinafre, Nova Zelândia, refogado",
                 "umidade": "86.573",
@@ -3648,7 +3648,7 @@
                 "niacina": "0",
                 "vitaminac": "5.26666666666667"
             },
-            {
+            "Farinha, de mandioca, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Farinha, de mandioca, crua",
                 "umidade": "9.38666666666667",
@@ -3678,7 +3678,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de mandioca, torrada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Farinha, de mandioca, torrada",
                 "umidade": "8.34",
@@ -3708,7 +3708,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Farinha, de puba": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Farinha, de puba",
                 "umidade": "9.801",
@@ -3738,7 +3738,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Fécula, de mandioca": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Fécula, de mandioca",
                 "umidade": "17.7666666666667",
@@ -3768,7 +3768,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, broto, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Feijão, broto, cru",
                 "umidade": "87.4813333333333",
@@ -3798,7 +3798,7 @@
                 "niacina": "0",
                 "vitaminac": "12.0"
             },
-            {
+            "Inhame, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Inhame, cru",
                 "umidade": "73.3133333333333",
@@ -3828,7 +3828,7 @@
                 "niacina": "0",
                 "vitaminac": "5.62333333333333"
             },
-            {
+            "Jiló, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Jiló, cru",
                 "umidade": "91.63",
@@ -3858,7 +3858,7 @@
                 "niacina": "0",
                 "vitaminac": "6.79333333333333"
             },
-            {
+            "Jurubeba, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Jurubeba, crua",
                 "umidade": "66.6353333333333",
@@ -3888,7 +3888,7 @@
                 "niacina": "0",
                 "vitaminac": "13.8333333333333"
             },
-            {
+            "Mandioca, cozida": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Mandioca, cozida",
                 "umidade": "68.6866666666667",
@@ -3918,7 +3918,7 @@
                 "niacina": "0",
                 "vitaminac": "11.0666666666667"
             },
-            {
+            "Mandioca, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Mandioca, crua",
                 "umidade": "61.8433333333333",
@@ -3948,7 +3948,7 @@
                 "niacina": "0",
                 "vitaminac": "16.5266666666667"
             },
-            {
+            "Mandioca, farofa, temperada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Mandioca, farofa, temperada",
                 "umidade": "6.42",
@@ -3978,7 +3978,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Mandioca, frita": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Mandioca, frita",
                 "umidade": "36.5656666666667",
@@ -4008,7 +4008,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Manjericão, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Manjericão, cru",
                 "umidade": "92.9566666666667",
@@ -4038,7 +4038,7 @@
                 "niacina": "0.896666666666667",
                 "vitaminac": "2.33666666666667"
             },
-            {
+            "Maxixe, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Maxixe, cru",
                 "umidade": "95.06",
@@ -4068,7 +4068,7 @@
                 "niacina": "0",
                 "vitaminac": "9.633"
             },
-            {
+            "Mostarda, folha, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Mostarda, folha, crua",
                 "umidade": "93.43",
@@ -4098,7 +4098,7 @@
                 "niacina": "0",
                 "vitaminac": "38.5533333333333"
             },
-            {
+            "Nhoque, batata, cozido": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Nhoque, batata, cozido",
                 "umidade": "54.954",
@@ -4128,7 +4128,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Nabo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Nabo, cru",
                 "umidade": "93.8433333333333",
@@ -4158,7 +4158,7 @@
                 "niacina": "0",
                 "vitaminac": "9.55"
             },
-            {
+            "Palmito, juçara, em conserva": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Palmito, juçara, em conserva",
                 "umidade": "91.3666666666667",
@@ -4188,7 +4188,7 @@
                 "niacina": "0",
                 "vitaminac": "1.98"
             },
-            {
+            "Palmito, pupunha, em conserva": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Palmito, pupunha, em conserva",
                 "umidade": "89.444",
@@ -4218,7 +4218,7 @@
                 "niacina": "0",
                 "vitaminac": "8.66333333333333"
             },
-            {
+            "Pão, de queijo, assado": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pão, de queijo, assado",
                 "umidade": "33.736",
@@ -4248,7 +4248,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Pão, de queijo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pão, de queijo, cru",
                 "umidade": "41.837",
@@ -4278,7 +4278,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Pepino, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pepino, cru",
                 "umidade": "96.7866666666667",
@@ -4308,7 +4308,7 @@
                 "niacina": "0",
                 "vitaminac": "4.98666666666667"
             },
-            {
+            "Pimentão, amarelo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pimentão, amarelo, cru",
                 "umidade": "91.8766666666667",
@@ -4338,7 +4338,7 @@
                 "niacina": "0",
                 "vitaminac": "201.36"
             },
-            {
+            "Pimentão, verde, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pimentão, verde, cru",
                 "umidade": "93.52",
@@ -4368,7 +4368,7 @@
                 "niacina": "0",
                 "vitaminac": "100.21"
             },
-            {
+            "Pimentão, vermelho, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Pimentão, vermelho, cru",
                 "umidade": "92.9033333333333",
@@ -4398,7 +4398,7 @@
                 "niacina": "0",
                 "vitaminac": "158.21"
             },
-            {
+            "Polvilho, doce": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Polvilho, doce",
                 "umidade": "12.5833333333333",
@@ -4428,7 +4428,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Quiabo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Quiabo, cru",
                 "umidade": "90.5753333333333",
@@ -4458,7 +4458,7 @@
                 "niacina": "0",
                 "vitaminac": "5.59666666666667"
             },
-            {
+            "Rabanete, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Rabanete, cru",
                 "umidade": "95.0633333333333",
@@ -4488,7 +4488,7 @@
                 "niacina": "0",
                 "vitaminac": "9.63333333333333"
             },
-            {
+            "Repolho, branco, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Repolho, branco, cru",
                 "umidade": "94.72",
@@ -4518,7 +4518,7 @@
                 "niacina": "0",
                 "vitaminac": "18.7166666666667"
             },
-            {
+            "Repolho, roxo, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Repolho, roxo, cru",
                 "umidade": "90.0843333333333",
@@ -4548,7 +4548,7 @@
                 "niacina": "0",
                 "vitaminac": "43.2"
             },
-            {
+            "Repolho, roxo, refogado": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Repolho, roxo, refogado",
                 "umidade": "88.699",
@@ -4578,7 +4578,7 @@
                 "niacina": "0.626",
                 "vitaminac": "40.52"
             },
-            {
+            "Rúcula, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Rúcula, crua",
                 "umidade": "94.8156666666667",
@@ -4608,7 +4608,7 @@
                 "niacina": "0.35",
                 "vitaminac": "46.2933333333333"
             },
-            {
+            "Salsa, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Salsa, crua",
                 "umidade": "88.65",
@@ -4638,7 +4638,7 @@
                 "niacina": "0.72",
                 "vitaminac": "51.6933333333333"
             },
-            {
+            "Seleta de legumes, enlatada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Seleta de legumes, enlatada",
                 "umidade": "82.1466666666667",
@@ -4668,7 +4668,7 @@
                 "niacina": "3.71666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Serralha, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Serralha, crua",
                 "umidade": "90.2483333333333",
@@ -4698,7 +4698,7 @@
                 "niacina": "0",
                 "vitaminac": "1.51"
             },
-            {
+            "Taioba, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Taioba, crua",
                 "umidade": "89.243",
@@ -4728,7 +4728,7 @@
                 "niacina": "0",
                 "vitaminac": "17.94"
             },
-            {
+            "Tomate, com semente, cru": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Tomate, com semente, cru",
                 "umidade": "95.1266666666667",
@@ -4758,7 +4758,7 @@
                 "niacina": "0",
                 "vitaminac": "21.2133333333333"
             },
-            {
+            "Tomate, extrato": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Tomate, extrato",
                 "umidade": "79.6633",
@@ -4788,7 +4788,7 @@
                 "niacina": "2.42",
                 "vitaminac": "18.01"
             },
-            {
+            "Tomate, molho industrializado": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Tomate, molho industrializado",
                 "umidade": "88.1366666666667",
@@ -4818,7 +4818,7 @@
                 "niacina": "0",
                 "vitaminac": "2.70666666666667"
             },
-            {
+            "Tomate, purê": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Tomate, purê",
                 "umidade": "90.7933333333333",
@@ -4848,7 +4848,7 @@
                 "niacina": "1.18",
                 "vitaminac": "5.38333333333333"
             },
-            {
+            "Tomate, salada": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Tomate, salada",
                 "umidade": "93.632",
@@ -4878,7 +4878,7 @@
                 "niacina": "0",
                 "vitaminac": "12.804"
             },
-            {
+            "Vagem, crua": {
                 "categoria": "Verduras, hortaliças e derivados",
                 "alimento": "Vagem, crua",
                 "umidade": "92.1666666666667",
@@ -4908,9 +4908,9 @@
                 "niacina": "0",
                 "vitaminac": "1.15333333333333"
             }
-        ],
-        "Frutas e derivados": [
-            {
+        },
+        "Frutas e derivados": {
+            "Abacate, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Abacate, cru",
                 "umidade": "83.7866666666667",
@@ -4940,7 +4940,7 @@
                 "niacina": "0",
                 "vitaminac": "8.66"
             },
-            {
+            "Abacaxi, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Abacaxi, cru",
                 "umidade": "86.3166666666667",
@@ -4970,7 +4970,7 @@
                 "niacina": "0",
                 "vitaminac": "34.6233333333333"
             },
-            {
+            "Abacaxi, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Abacaxi, polpa, congelada",
                 "umidade": "91.2946666666667",
@@ -5000,7 +5000,7 @@
                 "niacina": "0",
                 "vitaminac": "1.24666666666667"
             },
-            {
+            "Abiu, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Abiu, cru",
                 "umidade": "83.1443333333333",
@@ -5030,7 +5030,7 @@
                 "niacina": "0",
                 "vitaminac": "10.2833333333333"
             },
-            {
+            "Açaí, polpa, com xarope de guaraná e glucose": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Açaí, polpa, com xarope de guaraná e glucose",
                 "umidade": "73.8786666666667",
@@ -5060,7 +5060,7 @@
                 "niacina": "0",
                 "vitaminac": "10.27"
             },
-            {
+            "Açaí, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Açaí, polpa, congelada",
                 "umidade": "88.7003333333333",
@@ -5090,7 +5090,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Acerola, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Acerola, crua",
                 "umidade": "90.5306666666667",
@@ -5120,7 +5120,7 @@
                 "niacina": "1.38333333333333",
                 "vitaminac": "941.369666666667"
             },
-            {
+            "Acerola, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Acerola, polpa, congelada",
                 "umidade": "93.6096666666667",
@@ -5150,7 +5150,7 @@
                 "niacina": "0",
                 "vitaminac": "623.239333333333"
             },
-            {
+            "Ameixa, calda, enlatada ": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Ameixa, calda, enlatada ",
                 "umidade": "52.174",
@@ -5180,7 +5180,7 @@
                 "niacina": "0",
                 "vitaminac": "4.26966666666667"
             },
-            {
+            "Ameixa, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Ameixa, crua",
                 "umidade": "84.77",
@@ -5210,7 +5210,7 @@
                 "niacina": "0",
                 "vitaminac": "7.63"
             },
-            {
+            "Ameixa, em calda, enlatada, drenada ": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Ameixa, em calda, enlatada, drenada ",
                 "umidade": "50.3393333333333",
@@ -5240,7 +5240,7 @@
                 "niacina": "0",
                 "vitaminac": "5.15166666666667"
             },
-            {
+            "Atemóia, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Atemóia, crua",
                 "umidade": "72.736",
@@ -5270,7 +5270,7 @@
                 "niacina": "1.58",
                 "vitaminac": "10.1466666666667"
             },
-            {
+            "Banana, da terra, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, da terra, crua",
                 "umidade": "63.8766666666667",
@@ -5300,7 +5300,7 @@
                 "niacina": "0",
                 "vitaminac": "15.7466666666667"
             },
-            {
+            "Banana, doce em barra": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, doce em barra",
                 "umidade": "21.126",
@@ -5330,7 +5330,7 @@
                 "niacina": "1.41",
                 "vitaminac": "0"
             },
-            {
+            "Banana, figo, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, figo, crua",
                 "umidade": "70.074",
@@ -5360,7 +5360,7 @@
                 "niacina": "0",
                 "vitaminac": "17.4966666666667"
             },
-            {
+            "Banana, maçã, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, maçã, crua",
                 "umidade": "75.23",
@@ -5390,7 +5390,7 @@
                 "niacina": "0",
                 "vitaminac": "10.4666666666667"
             },
-            {
+            "Banana, nanica, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, nanica, crua",
                 "umidade": "73.7966666666667",
@@ -5420,7 +5420,7 @@
                 "niacina": "0",
                 "vitaminac": "5.86"
             },
-            {
+            "Banana, ouro, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, ouro, crua",
                 "umidade": "68.1766666666667",
@@ -5450,7 +5450,7 @@
                 "niacina": "0",
                 "vitaminac": "7.55666666666667"
             },
-            {
+            "Banana, pacova, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, pacova, crua",
                 "umidade": "77.7106666666667",
@@ -5480,7 +5480,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Banana, prata, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Banana, prata, crua",
                 "umidade": "71.8633333333333",
@@ -5510,7 +5510,7 @@
                 "niacina": "0",
                 "vitaminac": "21.59"
             },
-            {
+            "Cacau, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Cacau, cru",
                 "umidade": "79.2086666666667",
@@ -5540,7 +5540,7 @@
                 "niacina": "0",
                 "vitaminac": "13.5633333333333"
             },
-            {
+            "Cajá-Manga, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Cajá-Manga, cru",
                 "umidade": "86.8943333333333",
@@ -5570,7 +5570,7 @@
                 "niacina": "0",
                 "vitaminac": "26.6966666666667"
             },
-            {
+            "Cajá, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Cajá, polpa, congelada",
                 "umidade": "92.4436666666667",
@@ -5600,7 +5600,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Caju, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Caju, cru",
                 "umidade": "88.11333",
@@ -5630,7 +5630,7 @@
                 "niacina": "0",
                 "vitaminac": "219.333333333333"
             },
-            {
+            "Caju, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Caju, polpa, congelada",
                 "umidade": "89.817",
@@ -5660,7 +5660,7 @@
                 "niacina": "2.24666666666667",
                 "vitaminac": "119.719333333333"
             },
-            {
+            "Caju, suco concentrado, envasado": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Caju, suco concentrado, envasado",
                 "umidade": "88.3686666666667",
@@ -5690,7 +5690,7 @@
                 "niacina": "0",
                 "vitaminac": "138.695333333333"
             },
-            {
+            "Caqui, chocolate, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Caqui, chocolate, cru",
                 "umidade": "79.724",
@@ -5720,7 +5720,7 @@
                 "niacina": "0",
                 "vitaminac": "29.6133333333333"
             },
-            {
+            "Carambola, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Carambola, crua",
                 "umidade": "87.096",
@@ -5750,7 +5750,7 @@
                 "niacina": "0",
                 "vitaminac": "60.8666666666667"
             },
-            {
+            "Ciriguela, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Ciriguela, crua",
                 "umidade": "78.685",
@@ -5780,7 +5780,7 @@
                 "niacina": "0",
                 "vitaminac": "27.0266666666667"
             },
-            {
+            "Cupuaçu, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Cupuaçu, cru",
                 "umidade": "86.2306666666667",
@@ -5810,7 +5810,7 @@
                 "niacina": "4.34333333333333",
                 "vitaminac": "24.513"
             },
-            {
+            "Cupuaçu, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Cupuaçu, polpa, congelada",
                 "umidade": "86.553",
@@ -5840,7 +5840,7 @@
                 "niacina": "0",
                 "vitaminac": "10.489"
             },
-            {
+            "Figo, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Figo, cru",
                 "umidade": "88.1866666666667",
@@ -5870,7 +5870,7 @@
                 "niacina": "0",
                 "vitaminac": "0.79"
             },
-            {
+            "Figo, enlatado, em calda": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Figo, enlatado, em calda",
                 "umidade": "48.77",
@@ -5900,7 +5900,7 @@
                 "niacina": "0",
                 "vitaminac": "5.24333333333333"
             },
-            {
+            "Fruta-pão, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Fruta-pão, crua",
                 "umidade": "80.869",
@@ -5930,7 +5930,7 @@
                 "niacina": "0",
                 "vitaminac": "9.86666666666667"
             },
-            {
+            "Goiaba, branca, com casca, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Goiaba, branca, com casca, crua",
                 "umidade": "85.69",
@@ -5960,7 +5960,7 @@
                 "niacina": "0",
                 "vitaminac": "99.195"
             },
-            {
+            "Goiaba, doce em pasta": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Goiaba, doce em pasta",
                 "umidade": "24.78",
@@ -5990,7 +5990,7 @@
                 "niacina": "0",
                 "vitaminac": "23.0566666666667"
             },
-            {
+            "Goiaba, doce, cascão": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Goiaba, doce, cascão",
                 "umidade": "20.2606666666667",
@@ -6020,7 +6020,7 @@
                 "niacina": "1.40666666666667",
                 "vitaminac": "34.3266666666667"
             },
-            {
+            "Goiaba, vermelha, com casca, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Goiaba, vermelha, com casca, crua",
                 "umidade": "84.98",
@@ -6050,7 +6050,7 @@
                 "niacina": "0",
                 "vitaminac": "80.6016666666667"
             },
-            {
+            "Graviola, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Graviola, crua",
                 "umidade": "82.1533333333333",
@@ -6080,7 +6080,7 @@
                 "niacina": "0",
                 "vitaminac": "19.1373333333333"
             },
-            {
+            "Graviola, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Graviola, polpa, congelada",
                 "umidade": "89.163",
@@ -6110,7 +6110,7 @@
                 "niacina": "0",
                 "vitaminac": "10.4753333333333"
             },
-            {
+            "Jabuticaba, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Jabuticaba, crua",
                 "umidade": "83.6466666666667",
@@ -6140,7 +6140,7 @@
                 "niacina": "0",
                 "vitaminac": "16.17"
             },
-            {
+            "Jaca, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Jaca, crua",
                 "umidade": "75.0743333333333",
@@ -6170,7 +6170,7 @@
                 "niacina": "0",
                 "vitaminac": "14.8166666666667"
             },
-            {
+            "Jambo, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Jambo, cru",
                 "umidade": "92.101",
@@ -6200,7 +6200,7 @@
                 "niacina": "1.18",
                 "vitaminac": "3.77333333333333"
             },
-            {
+            "Jamelão, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Jamelão, cru",
                 "umidade": "87.6743333333333",
@@ -6230,7 +6230,7 @@
                 "niacina": "0",
                 "vitaminac": "27.07"
             },
-            {
+            "Kiwi, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Kiwi, cru",
                 "umidade": "85.8766666666667",
@@ -6260,7 +6260,7 @@
                 "niacina": "0",
                 "vitaminac": "70.7766666666667"
             },
-            {
+            "Laranja, baía, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, baía, crua",
                 "umidade": "87.08",
@@ -6290,7 +6290,7 @@
                 "niacina": "0",
                 "vitaminac": "56.87"
             },
-            {
+            "Laranja, baía, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, baía, suco",
                 "umidade": "90.2466666666667",
@@ -6320,7 +6320,7 @@
                 "niacina": "0",
                 "vitaminac": "94.4833333333333"
             },
-            {
+            "Laranja, da terra, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, da terra, crua",
                 "umidade": "85.3793333333334",
@@ -6350,7 +6350,7 @@
                 "niacina": "0",
                 "vitaminac": "34.6796666666667"
             },
-            {
+            "Laranja, da terra, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, da terra, suco",
                 "umidade": "89.22",
@@ -6380,7 +6380,7 @@
                 "niacina": "0",
                 "vitaminac": "44.32"
             },
-            {
+            "Laranja, lima, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, lima, crua",
                 "umidade": "86.974",
@@ -6410,7 +6410,7 @@
                 "niacina": "0",
                 "vitaminac": "43.4556666666667"
             },
-            {
+            "Laranja, lima, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, lima, suco",
                 "umidade": "89.6806666666667",
@@ -6440,7 +6440,7 @@
                 "niacina": "0",
                 "vitaminac": "41.3033"
             },
-            {
+            "Laranja, pêra, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, pêra, crua",
                 "umidade": "89.55",
@@ -6470,7 +6470,7 @@
                 "niacina": "0",
                 "vitaminac": "53.7333333333333"
             },
-            {
+            "Laranja, pêra, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, pêra, suco",
                 "umidade": "91.2933333333333",
@@ -6500,7 +6500,7 @@
                 "niacina": "0",
                 "vitaminac": "73.3366666666667"
             },
-            {
+            "Laranja, valência, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, valência, crua",
                 "umidade": "86.9413333333333",
@@ -6530,7 +6530,7 @@
                 "niacina": "0",
                 "vitaminac": "47.8456666666667"
             },
-            {
+            "Laranja, valência, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Laranja, valência, suco",
                 "umidade": "90.5303333333333",
@@ -6560,7 +6560,7 @@
                 "niacina": "0",
                 "vitaminac": "*"
             },
-            {
+            "Limão, cravo, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Limão, cravo, suco",
                 "umidade": "94.189",
@@ -6590,7 +6590,7 @@
                 "niacina": "0",
                 "vitaminac": "32.78"
             },
-            {
+            "Limão, galego, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Limão, galego, suco",
                 "umidade": "91.7966666666667",
@@ -6620,7 +6620,7 @@
                 "niacina": "0",
                 "vitaminac": "34.4966666666667"
             },
-            {
+            "Limão, tahiti, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Limão, tahiti, cru",
                 "umidade": "87.4273333333333",
@@ -6650,7 +6650,7 @@
                 "niacina": "0",
                 "vitaminac": "38.236"
             },
-            {
+            "Maçã, Argentina, com casca, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Maçã, Argentina, com casca, crua",
                 "umidade": "82.649",
@@ -6680,7 +6680,7 @@
                 "niacina": "0",
                 "vitaminac": "1.48666666666667"
             },
-            {
+            "Maçã, Fuji, com casca, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Maçã, Fuji, com casca, crua",
                 "umidade": "84.3366666666667",
@@ -6710,7 +6710,7 @@
                 "niacina": "0",
                 "vitaminac": "2.40666666666667"
             },
-            {
+            "Macaúba, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Macaúba, crua",
                 "umidade": "41.5266666666667",
@@ -6740,7 +6740,7 @@
                 "niacina": "0",
                 "vitaminac": "13.4435"
             },
-            {
+            " Mamão, doce em calda, drenado": {
                 "categoria": "Frutas e derivados",
                 "alimento": " Mamão, doce em calda, drenado",
                 "umidade": "45.529",
@@ -6770,7 +6770,7 @@
                 "niacina": "0",
                 "vitaminac": "3.9"
             },
-            {
+            "Mamão, Formosa, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Mamão, Formosa, cru",
                 "umidade": "86.9266666666667",
@@ -6800,7 +6800,7 @@
                 "niacina": "0",
                 "vitaminac": "78.5266666666667"
             },
-            {
+            "Mamão, Papaia, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Mamão, Papaia, cru",
                 "umidade": "88.583",
@@ -6830,7 +6830,7 @@
                 "niacina": "1.03333333333333",
                 "vitaminac": "82.2066666666667"
             },
-            {
+            " Mamão verde, doce em calda, drenado": {
                 "categoria": "Frutas e derivados",
                 "alimento": " Mamão verde, doce em calda, drenado",
                 "umidade": "41.8806666666667",
@@ -6860,7 +6860,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Manga, Haden, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Manga, Haden, crua",
                 "umidade": "82.2876666666667",
@@ -6890,7 +6890,7 @@
                 "niacina": "0",
                 "vitaminac": "17.413"
             },
-            {
+            "Manga, Palmer, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Manga, Palmer, crua",
                 "umidade": "79.7356666666667",
@@ -6920,7 +6920,7 @@
                 "niacina": "0",
                 "vitaminac": "65.5233333333333"
             },
-            {
+            "Manga, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Manga, polpa, congelada",
                 "umidade": "86.4983333333333",
@@ -6950,7 +6950,7 @@
                 "niacina": "0",
                 "vitaminac": "24.9023333333333"
             },
-            {
+            "Manga, Tommy Atkins, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Manga, Tommy Atkins, crua",
                 "umidade": "85.8133333333334",
@@ -6980,7 +6980,7 @@
                 "niacina": "0",
                 "vitaminac": "7.93666666666667"
             },
-            {
+            "Maracujá, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Maracujá, cru",
                 "umidade": "82.8533333333333",
@@ -7010,7 +7010,7 @@
                 "niacina": "0",
                 "vitaminac": "19.84"
             },
-            {
+            "Maracujá, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Maracujá, polpa, congelada",
                 "umidade": "88.8953333333333",
@@ -7040,7 +7040,7 @@
                 "niacina": "0",
                 "vitaminac": "7.257"
             },
-            {
+            "Maracujá, suco concentrado, envasado": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Maracujá, suco concentrado, envasado",
                 "umidade": "88.942",
@@ -7070,7 +7070,7 @@
                 "niacina": "1.91666666666667",
                 "vitaminac": "13.6793333333333"
             },
-            {
+            "Melancia, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Melancia, crua",
                 "umidade": "90.6666666666667",
@@ -7100,7 +7100,7 @@
                 "niacina": "0",
                 "vitaminac": "6.14666666666667"
             },
-            {
+            "Melão, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Melão, cru",
                 "umidade": "91.28",
@@ -7130,7 +7130,7 @@
                 "niacina": "0",
                 "vitaminac": "8.68"
             },
-            {
+            "Mexerica, Murcote, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Mexerica, Murcote, crua",
                 "umidade": "83.652",
@@ -7160,7 +7160,7 @@
                 "niacina": "0",
                 "vitaminac": "21.7956666666667"
             },
-            {
+            "Mexerica, Rio, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Mexerica, Rio, crua",
                 "umidade": "89.5693333333333",
@@ -7190,7 +7190,7 @@
                 "niacina": "0",
                 "vitaminac": "111.97"
             },
-            {
+            "Morango, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Morango, cru",
                 "umidade": "91.5266666666667",
@@ -7220,7 +7220,7 @@
                 "niacina": "0",
                 "vitaminac": "63.5966666666667"
             },
-            {
+            "Nêspera, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Nêspera, crua",
                 "umidade": "87.7643333333333",
@@ -7250,7 +7250,7 @@
                 "niacina": "0",
                 "vitaminac": "3.15666666666667"
             },
-            {
+            "Pequi, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pequi, cru",
                 "umidade": "65.8886666666667",
@@ -7280,7 +7280,7 @@
                 "niacina": "2.57333333333333",
                 "vitaminac": "8.28333333333333"
             },
-            {
+            "Pêra, Park, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pêra, Park, crua",
                 "umidade": "83.1863333333333",
@@ -7310,7 +7310,7 @@
                 "niacina": "0",
                 "vitaminac": "2.36"
             },
-            {
+            "Pêra, Williams, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pêra, Williams, crua",
                 "umidade": "85.0333333333333",
@@ -7340,7 +7340,7 @@
                 "niacina": "0",
                 "vitaminac": "2.83333333333333"
             },
-            {
+            "Pêssego, Aurora, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pêssego, Aurora, cru",
                 "umidade": "89.3213333333333",
@@ -7370,7 +7370,7 @@
                 "niacina": "0",
                 "vitaminac": "3.25333333333333"
             },
-            {
+            "Pêssego, enlatado, em calda": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pêssego, enlatado, em calda",
                 "umidade": "82.1866666666667",
@@ -7400,7 +7400,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pinha, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pinha, crua",
                 "umidade": "75.0496666666667",
@@ -7430,7 +7430,7 @@
                 "niacina": "0",
                 "vitaminac": "35.9033333333333"
             },
-            {
+            "Pitanga, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pitanga, crua",
                 "umidade": "88.293",
@@ -7460,7 +7460,7 @@
                 "niacina": "0",
                 "vitaminac": "24.87"
             },
-            {
+            "Pitanga, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Pitanga, polpa, congelada",
                 "umidade": "94.572",
@@ -7490,7 +7490,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Romã, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Romã, crua",
                 "umidade": "83.9866666666667",
@@ -7520,7 +7520,7 @@
                 "niacina": "0",
                 "vitaminac": "8.12333333333334"
             },
-            {
+            "Tamarindo, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Tamarindo, cru",
                 "umidade": "21.95",
@@ -7550,7 +7550,7 @@
                 "niacina": "0",
                 "vitaminac": "7.24666666666667"
             },
-            {
+            "Tangerina, Poncã, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Tangerina, Poncã, crua",
                 "umidade": "89.2233333333333",
@@ -7580,7 +7580,7 @@
                 "niacina": "0",
                 "vitaminac": "48.8166666666667"
             },
-            {
+            "Tangerina, Poncã, suco": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Tangerina, Poncã, suco",
                 "umidade": "90.44",
@@ -7610,7 +7610,7 @@
                 "niacina": "0",
                 "vitaminac": "41.75"
             },
-            {
+            "Tucumã, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Tucumã, cru",
                 "umidade": "51.2603333333333",
@@ -7640,7 +7640,7 @@
                 "niacina": "0",
                 "vitaminac": "17.9933333333333"
             },
-            {
+            "Umbu, cru": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Umbu, cru",
                 "umidade": "89.25",
@@ -7670,7 +7670,7 @@
                 "niacina": "0",
                 "vitaminac": "24.0553333333333"
             },
-            {
+            "Umbu, polpa, congelada": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Umbu, polpa, congelada",
                 "umidade": "90.185",
@@ -7700,7 +7700,7 @@
                 "niacina": "0",
                 "vitaminac": "3.95333333333333"
             },
-            {
+            "Uva, Itália, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Uva, Itália, crua",
                 "umidade": "84.9666666666667",
@@ -7730,7 +7730,7 @@
                 "niacina": "0",
                 "vitaminac": "3.29333333333333"
             },
-            {
+            "Uva, Rubi, crua": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Uva, Rubi, crua",
                 "umidade": "86.084",
@@ -7760,7 +7760,7 @@
                 "niacina": "0",
                 "vitaminac": "1.863"
             },
-            {
+            "Uva, suco concentrado, envasado": {
                 "categoria": "Frutas e derivados",
                 "alimento": "Uva, suco concentrado, envasado",
                 "umidade": "85.1296666666667",
@@ -7790,9 +7790,9 @@
                 "niacina": "0",
                 "vitaminac": "20.9676666666667"
             }
-        ],
-        "Gorduras e óleos": [
-            {
+        },
+        "Gorduras e óleos": {
+            "Azeite, de dendê": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Azeite, de dendê",
                 "umidade": "0",
@@ -7822,7 +7822,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Azeite, de oliva, extra virgem": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Azeite, de oliva, extra virgem",
                 "umidade": "0",
@@ -7852,7 +7852,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Manteiga, com sal": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Manteiga, com sal",
                 "umidade": "15.7873333333333",
@@ -7882,7 +7882,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Manteiga, sem sal": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Manteiga, sem sal",
                 "umidade": "13.6273333333333",
@@ -7912,7 +7912,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)",
                 "umidade": "32.2313333333333",
@@ -7942,7 +7942,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)",
                 "umidade": "19.5856666666667",
@@ -7972,7 +7972,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Margarina, com óleo interesterificado, com sal (65%de lipídeos)": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)",
                 "umidade": "31.969",
@@ -8002,7 +8002,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
                 "umidade": "33.37",
@@ -8032,7 +8032,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de babaçu": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de babaçu",
                 "umidade": "0",
@@ -8062,7 +8062,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de canola": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de canola",
                 "umidade": "0",
@@ -8092,7 +8092,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de girassol": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de girassol",
                 "umidade": "0",
@@ -8122,7 +8122,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de milho": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de milho",
                 "umidade": "0",
@@ -8152,7 +8152,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de pequi": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de pequi",
                 "umidade": "0",
@@ -8182,7 +8182,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Óleo, de soja": {
                 "categoria": "Gorduras e óleos",
                 "alimento": "Óleo, de soja",
                 "umidade": "0",
@@ -8212,9 +8212,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Pescados e frutos do mar": [
-            {
+        },
+        "Pescados e frutos do mar": {
+            "Abadejo, filé, congelado, assado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Abadejo, filé, congelado, assado",
                 "umidade": "74.3223333333333",
@@ -8244,7 +8244,7 @@
                 "niacina": "0.436666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Abadejo, filé, congelado,cozido": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Abadejo, filé, congelado,cozido",
                 "umidade": "79.7336666666667",
@@ -8274,7 +8274,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Abadejo, filé, congelado, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Abadejo, filé, congelado, cru",
                 "umidade": "86.4166666666667",
@@ -8304,7 +8304,7 @@
                 "niacina": "4.6",
                 "vitaminac": "0"
             },
-            {
+            "Abadejo, filé, congelado, grelhado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Abadejo, filé, congelado, grelhado",
                 "umidade": "70.957",
@@ -8334,7 +8334,7 @@
                 "niacina": "0.436666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Atum, conserva em óleo": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Atum, conserva em óleo",
                 "umidade": "64.5",
@@ -8364,7 +8364,7 @@
                 "niacina": "3.16666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Atum, fresco, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Atum, fresco, cru",
                 "umidade": "73.0533333333333",
@@ -8394,7 +8394,7 @@
                 "niacina": "5.94",
                 "vitaminac": "0"
             },
-            {
+            "Bacalhau, salgado, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Bacalhau, salgado, cru",
                 "umidade": "47.8866666666667",
@@ -8424,7 +8424,7 @@
                 "niacina": "*",
                 "vitaminac": "0"
             },
-            {
+            "Bacalhau, salgado, refogado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Bacalhau, salgado, refogado",
                 "umidade": "65.909",
@@ -8454,7 +8454,7 @@
                 "niacina": "5.16666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Cação, posta, com farinha de trigo, frita": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Cação, posta, com farinha de trigo, frita",
                 "umidade": "60.6233333333333",
@@ -8484,7 +8484,7 @@
                 "niacina": "0.77",
                 "vitaminac": "0"
             },
-            {
+            "Cação, posta, cozida": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Cação, posta, cozida",
                 "umidade": "75.9283333333333",
@@ -8514,7 +8514,7 @@
                 "niacina": "9.76666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Cação, posta, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Cação, posta, crua",
                 "umidade": "81.3766666666667",
@@ -8544,7 +8544,7 @@
                 "niacina": "1.31",
                 "vitaminac": "0"
             },
-            {
+            "Camarão, Rio Grande, grande, cozido": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Camarão, Rio Grande, grande, cozido",
                 "umidade": "78.707",
@@ -8574,7 +8574,7 @@
                 "niacina": "1.06666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Camarão, Rio Grande, grande, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Camarão, Rio Grande, grande, cru",
                 "umidade": "89.1336666666667",
@@ -8604,7 +8604,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Camarão, Sete Barbas, sem cabeça, com casca, frito": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Camarão, Sete Barbas, sem cabeça, com casca, frito",
                 "umidade": "61.0393333333333",
@@ -8634,7 +8634,7 @@
                 "niacina": "0.35",
                 "vitaminac": "0"
             },
-            {
+            "Caranguejo, cozido": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Caranguejo, cozido",
                 "umidade": "76.9966666666667",
@@ -8664,7 +8664,7 @@
                 "niacina": "4.16666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Corimba, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corimba, cru",
                 "umidade": "75.6433333333333",
@@ -8694,7 +8694,7 @@
                 "niacina": "1.87333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Corimbatá, assado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corimbatá, assado",
                 "umidade": "59.9266666666667",
@@ -8724,7 +8724,7 @@
                 "niacina": "2.69666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Corimbatá, cozido": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corimbatá, cozido",
                 "umidade": "64.562",
@@ -8754,7 +8754,7 @@
                 "niacina": "2.09333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Corvina de água doce, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corvina de água doce, crua",
                 "umidade": "79.2466666666667",
@@ -8784,7 +8784,7 @@
                 "niacina": "*",
                 "vitaminac": "0"
             },
-            {
+            "Corvina do mar, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corvina do mar, crua",
                 "umidade": "79.3533333333333",
@@ -8814,7 +8814,7 @@
                 "niacina": "2.62333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Corvina grande, assada": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corvina grande, assada",
                 "umidade": "69.0263333333333",
@@ -8844,7 +8844,7 @@
                 "niacina": "4.23333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Corvina grande, cozida": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Corvina grande, cozida",
                 "umidade": "73.6093333333333",
@@ -8874,7 +8874,7 @@
                 "niacina": "0.77",
                 "vitaminac": "0"
             },
-            {
+            "Dourada de água doce, fresca": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Dourada de água doce, fresca",
                 "umidade": "76.16",
@@ -8904,7 +8904,7 @@
                 "niacina": "3.70333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Lambari, congelado, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Lambari, congelado, cru",
                 "umidade": "71.8866666666667",
@@ -8934,7 +8934,7 @@
                 "niacina": "3.3",
                 "vitaminac": "0"
             },
-            {
+            "Lambari, congelado, frito": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Lambari, congelado, frito",
                 "umidade": "40.138",
@@ -8964,7 +8964,7 @@
                 "niacina": "8.93333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Lambari, fresco, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Lambari, fresco, cru",
                 "umidade": "72.1656666666667",
@@ -8994,7 +8994,7 @@
                 "niacina": "1.85666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Manjuba, com farinha de trigo, frita": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Manjuba, com farinha de trigo, frita",
                 "umidade": "41.305",
@@ -9024,7 +9024,7 @@
                 "niacina": "0.786666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Manjuba, frita": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Manjuba, frita",
                 "umidade": "40.6806666666667",
@@ -9054,7 +9054,7 @@
                 "niacina": "7.26666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Merluza, filé, assado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Merluza, filé, assado",
                 "umidade": "70.7273333333333",
@@ -9084,7 +9084,7 @@
                 "niacina": "7.96666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Merluza, filé, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Merluza, filé, cru",
                 "umidade": "82.0733333333333",
@@ -9114,7 +9114,7 @@
                 "niacina": "1.34333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Merluza, filé, frito": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Merluza, filé, frito",
                 "umidade": "63.4616666666667",
@@ -9144,7 +9144,7 @@
                 "niacina": "0.77",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, branca, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, branca, crua",
                 "umidade": "79.57",
@@ -9174,7 +9174,7 @@
                 "niacina": "0.603333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, branca, frita": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, branca, frita",
                 "umidade": "57.0033333333333",
@@ -9204,7 +9204,7 @@
                 "niacina": "8.06666666666666",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, filé, com farinha de trigo, frito": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, filé, com farinha de trigo, frito",
                 "umidade": "53.202",
@@ -9234,7 +9234,7 @@
                 "niacina": "0.603333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, filé, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, filé, cru",
                 "umidade": "79.52",
@@ -9264,7 +9264,7 @@
                 "niacina": "3.10333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, filé, frito": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, filé, frito",
                 "umidade": "66.804",
@@ -9294,7 +9294,7 @@
                 "niacina": "8.86666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Pescada, filé, molho escabeche": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescada, filé, molho escabeche",
                 "umidade": "74.5323333333333",
@@ -9324,7 +9324,7 @@
                 "niacina": "1.10333333333333",
                 "vitaminac": "6.89333333333333"
             },
-            {
+            "Pescadinha, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pescadinha, crua",
                 "umidade": "80.6233333333333",
@@ -9354,7 +9354,7 @@
                 "niacina": "6.6",
                 "vitaminac": "0"
             },
-            {
+            "Pintado, assado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pintado, assado",
                 "umidade": "56.98",
@@ -9384,7 +9384,7 @@
                 "niacina": "6.63333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pintado, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pintado, cru",
                 "umidade": "80.27",
@@ -9414,7 +9414,7 @@
                 "niacina": "4.95333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Pintado, grelhado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Pintado, grelhado",
                 "umidade": "65.4943333333333",
@@ -9444,7 +9444,7 @@
                 "niacina": "2.86666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porquinho, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Porquinho, cru",
                 "umidade": "79.1666666666667",
@@ -9474,7 +9474,7 @@
                 "niacina": "1.19333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Salmão, filé, com pele, fresco,  grelhado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Salmão, filé, com pele, fresco,  grelhado",
                 "umidade": "60.9273333333333",
@@ -9504,7 +9504,7 @@
                 "niacina": "5.34666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Salmão, sem pele, fresco, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Salmão, sem pele, fresco, cru",
                 "umidade": "68.984",
@@ -9534,7 +9534,7 @@
                 "niacina": "3.21",
                 "vitaminac": "0"
             },
-            {
+            "Salmão, sem pele, fresco, grelhado": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Salmão, sem pele, fresco, grelhado",
                 "umidade": "58.128",
@@ -9564,7 +9564,7 @@
                 "niacina": "6.30333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Sardinha, assada": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Sardinha, assada",
                 "umidade": "60.08",
@@ -9594,7 +9594,7 @@
                 "niacina": "5.83333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Sardinha, conserva em óleo": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Sardinha, conserva em óleo",
                 "umidade": "55.1426666666667",
@@ -9624,7 +9624,7 @@
                 "niacina": "6.55333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Sardinha, frita": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Sardinha, frita",
                 "umidade": "48.489",
@@ -9654,7 +9654,7 @@
                 "niacina": "7.1",
                 "vitaminac": "0"
             },
-            {
+            "Sardinha, inteira, crua": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Sardinha, inteira, crua",
                 "umidade": "76.64",
@@ -9684,7 +9684,7 @@
                 "niacina": "7.7",
                 "vitaminac": "0"
             },
-            {
+            "Tucunaré, filé, congelado, cru": {
                 "categoria": "Pescados e frutos do mar",
                 "alimento": "Tucunaré, filé, congelado, cru",
                 "umidade": "79.8833333333333",
@@ -9714,9 +9714,9 @@
                 "niacina": "0.9",
                 "vitaminac": "0"
             }
-        ],
-        "Carnes e derivados": [
-            {
+        },
+        "Carnes e derivados": {
+            "Apresuntado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Apresuntado",
                 "umidade": "73.72",
@@ -9746,7 +9746,7 @@
                 "niacina": "0.696666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Caldo de carne, tablete": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Caldo de carne, tablete",
                 "umidade": "2.93",
@@ -9776,7 +9776,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Caldo de galinha, tablete": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Caldo de galinha, tablete",
                 "umidade": "3.38266666666667",
@@ -9806,7 +9806,7 @@
                 "niacina": "*",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, acém, moído, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, acém, moído, cozido",
                 "umidade": "61.62",
@@ -9836,7 +9836,7 @@
                 "niacina": "1.76333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, acém, moído, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, acém, moído, cru",
                 "umidade": "72.7033333333333",
@@ -9866,7 +9866,7 @@
                 "niacina": "4.33",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, acém, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, acém, sem gordura, cozido",
                 "umidade": "60.3833333333333",
@@ -9896,7 +9896,7 @@
                 "niacina": "1.62666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, acém, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, acém, sem gordura, cru",
                 "umidade": "71.5166666666667",
@@ -9926,7 +9926,7 @@
                 "niacina": "2.33",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, almôndegas, cruas": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, almôndegas, cruas",
                 "umidade": "64.2833333333333",
@@ -9956,7 +9956,7 @@
                 "niacina": "2.2",
                 "vitaminac": " "
             },
-            {
+            "Carne, bovina, almôndegas, fritas": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, almôndegas, fritas",
                 "umidade": "48.0876666666667",
@@ -9986,7 +9986,7 @@
                 "niacina": "6.6",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, bucho, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, bucho, cozido",
                 "umidade": "74.1233333333333",
@@ -10016,7 +10016,7 @@
                 "niacina": "2.18",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, bucho, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, bucho, cru",
                 "umidade": "74.9666666666667",
@@ -10046,7 +10046,7 @@
                 "niacina": "2.13333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, capa de contra-filé, com gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, capa de contra-filé, com gordura, crua",
                 "umidade": "64.7733333333333",
@@ -10076,7 +10076,7 @@
                 "niacina": "1.55",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, capa de contra-filé, com gordura, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, capa de contra-filé, com gordura, grelhada",
                 "umidade": "47.88",
@@ -10106,7 +10106,7 @@
                 "niacina": "1.74333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, capa de contra-filé, sem gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, capa de contra-filé, sem gordura, crua",
                 "umidade": "72.9866666666667",
@@ -10136,7 +10136,7 @@
                 "niacina": "1.81",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, capa de contra-filé, sem gordura, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, capa de contra-filé, sem gordura, grelhada",
                 "umidade": "53.7433333333333",
@@ -10166,7 +10166,7 @@
                 "niacina": "1.85666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, charque, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, charque, cozido",
                 "umidade": "45.789",
@@ -10196,7 +10196,7 @@
                 "niacina": "1.5",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, charque, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, charque, cru",
                 "umidade": "44.4656666666667",
@@ -10226,7 +10226,7 @@
                 "niacina": "1.63333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé, à milanesa": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé, à milanesa",
                 "umidade": "42.1646666666667",
@@ -10256,7 +10256,7 @@
                 "niacina": "3.01666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé de costela, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé de costela, cru",
                 "umidade": "66.38",
@@ -10286,7 +10286,7 @@
                 "niacina": "2.67666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé de costela, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé de costela, grelhado",
                 "umidade": "52.1933333333333",
@@ -10316,7 +10316,7 @@
                 "niacina": "2.75333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé, com gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé, com gordura, cru",
                 "umidade": "65.747",
@@ -10346,7 +10346,7 @@
                 "niacina": "3.79",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé, com gordura, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé, com gordura, grelhado",
                 "umidade": "51.7066666666667",
@@ -10376,7 +10376,7 @@
                 "niacina": "4.91",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé, sem gordura, cru",
                 "umidade": "69.1433333333333",
@@ -10406,7 +10406,7 @@
                 "niacina": "4.64",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, contra-filé, sem gordura, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, contra-filé, sem gordura, grelhado",
                 "umidade": "57.5333333333333",
@@ -10436,7 +10436,7 @@
                 "niacina": "4.93333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, costela, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, costela, assada",
                 "umidade": "43.1866666666667",
@@ -10466,7 +10466,7 @@
                 "niacina": "0.556666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, costela, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, costela, crua",
                 "umidade": "52.73",
@@ -10496,7 +10496,7 @@
                 "niacina": "5.99",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, coxão duro, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, coxão duro, sem gordura, cozido",
                 "umidade": "58.5333333333333",
@@ -10526,7 +10526,7 @@
                 "niacina": "3.26",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, coxão duro, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, coxão duro, sem gordura, cru",
                 "umidade": "69.8033333333333",
@@ -10556,7 +10556,7 @@
                 "niacina": "4.37666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, coxão mole, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, coxão mole, sem gordura, cozido",
                 "umidade": "58.0433333333333",
@@ -10586,7 +10586,7 @@
                 "niacina": "4.09",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, coxão mole, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, coxão mole, sem gordura, cru",
                 "umidade": "68.5966666666667",
@@ -10616,7 +10616,7 @@
                 "niacina": "2.32",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, cupim, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, cupim, assado",
                 "umidade": "48.417",
@@ -10646,7 +10646,7 @@
                 "niacina": "2.16333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, cupim, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, cupim, cru",
                 "umidade": "64.83",
@@ -10676,7 +10676,7 @@
                 "niacina": "3.33",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, fígado, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, fígado, cru",
                 "umidade": "71.33",
@@ -10706,7 +10706,7 @@
                 "niacina": "10.66",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, fígado, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, fígado, grelhado",
                 "umidade": "54.97",
@@ -10736,7 +10736,7 @@
                 "niacina": "11.9233333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, filé mingnon, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, filé mingnon, sem gordura, cru",
                 "umidade": "71.89",
@@ -10766,7 +10766,7 @@
                 "niacina": "1.77666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, filé mingnon, sem gordura, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, filé mingnon, sem gordura, grelhado",
                 "umidade": "56.9966666666667",
@@ -10796,7 +10796,7 @@
                 "niacina": "4.26666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, flanco, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, flanco, sem gordura, cozido",
                 "umidade": "61.9833333333333",
@@ -10826,7 +10826,7 @@
                 "niacina": "2.32",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, flanco, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, flanco, sem gordura, cru",
                 "umidade": "72.07",
@@ -10856,7 +10856,7 @@
                 "niacina": "3.27666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, fraldinha, com gordura, cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, fraldinha, com gordura, cozida",
                 "umidade": "49.7233333333333",
@@ -10886,7 +10886,7 @@
                 "niacina": "1.60666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, fraldinha, com gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, fraldinha, com gordura, crua",
                 "umidade": "65.4433333333333",
@@ -10916,7 +10916,7 @@
                 "niacina": "3.56333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, lagarto, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, lagarto, cozido",
                 "umidade": "57.63",
@@ -10946,7 +10946,7 @@
                 "niacina": "2.54666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, lagarto, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, lagarto, cru",
                 "umidade": "70.9733333333333",
@@ -10976,7 +10976,7 @@
                 "niacina": "2.19333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, língua, cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, língua, cozida",
                 "umidade": "53.4133333333333",
@@ -11006,7 +11006,7 @@
                 "niacina": "1.82666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, língua, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, língua, crua",
                 "umidade": "65.0166666666667",
@@ -11036,7 +11036,7 @@
                 "niacina": "1.17666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, maminha, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, maminha, crua",
                 "umidade": "69.99",
@@ -11066,7 +11066,7 @@
                 "niacina": "4.27333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, maminha, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, maminha, grelhada",
                 "umidade": "65.2796666666667",
@@ -11096,7 +11096,7 @@
                 "niacina": "1.45666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, miolo de alcatra, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, miolo de alcatra, sem gordura, cru",
                 "umidade": "69.4933333333333",
@@ -11126,7 +11126,7 @@
                 "niacina": "3.59",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, miolo de alcatra, sem gordura, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, miolo de alcatra, sem gordura, grelhado",
                 "umidade": "52.43",
@@ -11156,7 +11156,7 @@
                 "niacina": "4.66333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, músculo, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, músculo, sem gordura, cozido",
                 "umidade": "62.82",
@@ -11186,7 +11186,7 @@
                 "niacina": "1.97333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, músculo, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, músculo, sem gordura, cru",
                 "umidade": "72.3533333333333",
@@ -11216,7 +11216,7 @@
                 "niacina": "2.78666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, paleta, com gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, paleta, com gordura, crua",
                 "umidade": "70.62",
@@ -11246,7 +11246,7 @@
                 "niacina": "0.91",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, paleta, sem gordura, cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, paleta, sem gordura, cozida",
                 "umidade": "62.9433333333333",
@@ -11276,7 +11276,7 @@
                 "niacina": "2.16333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, paleta, sem gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, paleta, sem gordura, crua",
                 "umidade": "72.0833333333333",
@@ -11306,7 +11306,7 @@
                 "niacina": "2.66666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, patinho, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, patinho, sem gordura, cru",
                 "umidade": "72.9066666666667",
@@ -11336,7 +11336,7 @@
                 "niacina": "3.61",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, patinho, sem gordura, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, patinho, sem gordura, grelhado",
                 "umidade": "55.15",
@@ -11366,7 +11366,7 @@
                 "niacina": "3.01",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, peito, sem gordura, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, peito, sem gordura, cozido",
                 "umidade": "51.1766666666667",
@@ -11396,7 +11396,7 @@
                 "niacina": "4.53666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, peito, sem gordura, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, peito, sem gordura, cru",
                 "umidade": "61.4866666666667",
@@ -11426,7 +11426,7 @@
                 "niacina": "3.91",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, picanha, com gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, picanha, com gordura, crua",
                 "umidade": "65.64",
@@ -11456,7 +11456,7 @@
                 "niacina": "4.76666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, picanha, com gordura, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, picanha, com gordura, grelhada",
                 "umidade": "53.3873333333333",
@@ -11486,7 +11486,7 @@
                 "niacina": "1.6",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, picanha, sem gordura, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, picanha, sem gordura, crua",
                 "umidade": "72.4233333333333",
@@ -11516,7 +11516,7 @@
                 "niacina": "1.88666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, picanha, sem gordura, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, picanha, sem gordura, grelhada",
                 "umidade": "54.6333333333333",
@@ -11546,7 +11546,7 @@
                 "niacina": "1.82333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, seca, cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, seca, cozida",
                 "umidade": "47.19",
@@ -11576,7 +11576,7 @@
                 "niacina": "2.32",
                 "vitaminac": "0"
             },
-            {
+            "Carne, bovina, seca, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Carne, bovina, seca, crua",
                 "umidade": "39.236",
@@ -11606,7 +11606,7 @@
                 "niacina": "2.83333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Coxinha de frango, frita": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Coxinha de frango, frita",
                 "umidade": "42.2106666666667",
@@ -11636,7 +11636,7 @@
                 "niacina": "2.6",
                 "vitaminac": "0"
             },
-            {
+            "Croquete, de carne, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Croquete, de carne, cru",
                 "umidade": "55.9556666666667",
@@ -11666,7 +11666,7 @@
                 "niacina": "1.94666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Croquete, de carne, frito": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Croquete, de carne, frito",
                 "umidade": "39.235",
@@ -11696,7 +11696,7 @@
                 "niacina": "4.77333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Empada de frango, pré-cozida, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Empada de frango, pré-cozida, assada",
                 "umidade": "28.1923333333333",
@@ -11726,7 +11726,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Empada, de frango, pré-cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Empada, de frango, pré-cozida",
                 "umidade": "32.0313333333333",
@@ -11756,7 +11756,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Frango, asa, com pele, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, asa, com pele, crua",
                 "umidade": "67.47",
@@ -11786,7 +11786,7 @@
                 "niacina": "2.58333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, caipira, inteiro, com pele, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, caipira, inteiro, com pele, cozido",
                 "umidade": "59.6856666666667",
@@ -11816,7 +11816,7 @@
                 "niacina": "6.33333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, caipira, inteiro, sem pele, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, caipira, inteiro, sem pele, cozido",
                 "umidade": "61.4153333333333",
@@ -11846,7 +11846,7 @@
                 "niacina": "9.2",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coração, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coração, cru",
                 "umidade": "69.05",
@@ -11876,7 +11876,7 @@
                 "niacina": "3.38666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coração, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coração, grelhado",
                 "umidade": "63.5116666666667",
@@ -11906,7 +11906,7 @@
                 "niacina": "9.7",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coxa, com pele, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coxa, com pele, assada",
                 "umidade": "59.7926666666667",
@@ -11936,7 +11936,7 @@
                 "niacina": "10.4",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coxa, com pele, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coxa, com pele, crua",
                 "umidade": "72.85",
@@ -11966,7 +11966,7 @@
                 "niacina": "2.03666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coxa, sem pele, cozida": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coxa, sem pele, cozida",
                 "umidade": "66.6576666666667",
@@ -11996,7 +11996,7 @@
                 "niacina": "8.2",
                 "vitaminac": "0"
             },
-            {
+            "Frango, coxa, sem pele, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, coxa, sem pele, crua",
                 "umidade": "76.4166666666667",
@@ -12026,7 +12026,7 @@
                 "niacina": "3.53",
                 "vitaminac": "0"
             },
-            {
+            "Frango, fígado, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, fígado, cru",
                 "umidade": "77.75",
@@ -12056,7 +12056,7 @@
                 "niacina": "6.36333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, filé, à milanesa": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, filé, à milanesa",
                 "umidade": "54.89",
@@ -12086,7 +12086,7 @@
                 "niacina": "11.0666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, inteiro, com pele, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, inteiro, com pele, cru",
                 "umidade": "66.54",
@@ -12116,7 +12116,7 @@
                 "niacina": "3.27666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, inteiro, sem pele, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, inteiro, sem pele, assado",
                 "umidade": "63.1973333333333",
@@ -12146,7 +12146,7 @@
                 "niacina": "11.2",
                 "vitaminac": "0"
             },
-            {
+            "Frango, inteiro, sem pele, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, inteiro, sem pele, cozido",
                 "umidade": "67.4526666666667",
@@ -12176,7 +12176,7 @@
                 "niacina": "12.8333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, inteiro, sem pele, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, inteiro, sem pele, cru",
                 "umidade": "74.8566666666667",
@@ -12206,7 +12206,7 @@
                 "niacina": "3.28333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, peito, com pele, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, peito, com pele, assado",
                 "umidade": "58.5366666666667",
@@ -12236,7 +12236,7 @@
                 "niacina": "15.8",
                 "vitaminac": "0"
             },
-            {
+            "Frango, peito, com pele, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, peito, com pele, cru",
                 "umidade": "71.9433333333333",
@@ -12266,7 +12266,7 @@
                 "niacina": "2.58333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, peito, sem pele, cozido": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, peito, sem pele, cozido",
                 "umidade": "65.569",
@@ -12296,7 +12296,7 @@
                 "niacina": "7.6",
                 "vitaminac": "0"
             },
-            {
+            "Frango, peito, sem pele, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, peito, sem pele, cru",
                 "umidade": "74.7933333333333",
@@ -12326,7 +12326,7 @@
                 "niacina": "5.85666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, peito, sem pele, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, peito, sem pele, grelhado",
                 "umidade": "63.8093333333333",
@@ -12356,7 +12356,7 @@
                 "niacina": "24.8333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Frango, sobrecoxa, com pele, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, sobrecoxa, com pele, assada",
                 "umidade": "55.0043333333333",
@@ -12386,7 +12386,7 @@
                 "niacina": "11.2",
                 "vitaminac": "0"
             },
-            {
+            "Frango, sobrecoxa, com pele, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, sobrecoxa, com pele, crua",
                 "umidade": "63.58",
@@ -12416,7 +12416,7 @@
                 "niacina": "3.39666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Frango, sobrecoxa, sem pele, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, sobrecoxa, sem pele, assada",
                 "umidade": "55.63",
@@ -12446,7 +12446,7 @@
                 "niacina": "10.2",
                 "vitaminac": "0"
             },
-            {
+            "Frango, sobrecoxa, sem pele, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Frango, sobrecoxa, sem pele, crua",
                 "umidade": "72.7066666666667",
@@ -12476,7 +12476,7 @@
                 "niacina": "4.06",
                 "vitaminac": "0"
             },
-            {
+            "Hambúrguer, bovino, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Hambúrguer, bovino, cru",
                 "umidade": "63.6046666666667",
@@ -12506,7 +12506,7 @@
                 "niacina": "3.53333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Hambúrguer, bovino, frito": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Hambúrguer, bovino, frito",
                 "umidade": "52.4566666666667",
@@ -12536,7 +12536,7 @@
                 "niacina": "2.73333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Hambúrguer, bovino, grelhado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Hambúrguer, bovino, grelhado",
                 "umidade": "59.2276666666667",
@@ -12566,7 +12566,7 @@
                 "niacina": "5.76666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, frango, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, frango, crua",
                 "umidade": "64.7606666666667",
@@ -12596,7 +12596,7 @@
                 "niacina": "4.6",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, frango, frita": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, frango, frita",
                 "umidade": "59.5706666666667",
@@ -12626,7 +12626,7 @@
                 "niacina": "5.66666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, frango, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, frango, grelhada",
                 "umidade": "58.583",
@@ -12656,7 +12656,7 @@
                 "niacina": "5.96666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, porco, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, porco, crua",
                 "umidade": "62.4826666666667",
@@ -12686,7 +12686,7 @@
                 "niacina": "2.6",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, porco, frita": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, porco, frita",
                 "umidade": "54.6093333333333",
@@ -12716,7 +12716,7 @@
                 "niacina": "5.83333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Lingüiça, porco, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Lingüiça, porco, grelhada",
                 "umidade": "50.4793333333333",
@@ -12746,7 +12746,7 @@
                 "niacina": "6.6",
                 "vitaminac": "0"
             },
-            {
+            "Mortadela": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Mortadela",
                 "umidade": "56.4393333333333",
@@ -12776,7 +12776,7 @@
                 "niacina": "3.00333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Peru, congelado, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Peru, congelado, assado",
                 "umidade": "65.323",
@@ -12806,7 +12806,7 @@
                 "niacina": "6.23333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Peru, congelado, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Peru, congelado, cru",
                 "umidade": "78.1766666666667",
@@ -12836,7 +12836,7 @@
                 "niacina": "4.23333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Porco, bisteca, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, bisteca, crua",
                 "umidade": "67.7033333333333",
@@ -12866,7 +12866,7 @@
                 "niacina": "2.64666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porco, bisteca, frita": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, bisteca, frita",
                 "umidade": "47.3266666666667",
@@ -12896,7 +12896,7 @@
                 "niacina": "3.24666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porco, bisteca, grelhada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, bisteca, grelhada",
                 "umidade": "51.8436666666667",
@@ -12926,7 +12926,7 @@
                 "niacina": "1.92333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Porco, costela, assada": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, costela, assada",
                 "umidade": "36.92",
@@ -12956,7 +12956,7 @@
                 "niacina": "10.6333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Porco, costela, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, costela, crua",
                 "umidade": "61.21",
@@ -12986,7 +12986,7 @@
                 "niacina": "8.26666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porco, lombo, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, lombo, assado",
                 "umidade": "56.5606666666667",
@@ -13016,7 +13016,7 @@
                 "niacina": "12.4333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Porco, lombo, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, lombo, cru",
                 "umidade": "67.7333333333333",
@@ -13046,7 +13046,7 @@
                 "niacina": "13.8333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Porco, orelha, salgada, crua": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, orelha, salgada, crua",
                 "umidade": "59.6666666666667",
@@ -13076,7 +13076,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Porco, pernil, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, pernil, assado",
                 "umidade": "49.2563333333333",
@@ -13106,7 +13106,7 @@
                 "niacina": "6.56666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porco, pernil, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, pernil, cru",
                 "umidade": "67.08",
@@ -13136,7 +13136,7 @@
                 "niacina": "5.66666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Porco, rabo, salgado, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Porco, rabo, salgado, cru",
                 "umidade": "43.7896666666667",
@@ -13166,7 +13166,7 @@
                 "niacina": "1.43333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Presunto, com capa de gordura": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Presunto, com capa de gordura",
                 "umidade": "73.9463333333333",
@@ -13196,7 +13196,7 @@
                 "niacina": "3.78",
                 "vitaminac": "0"
             },
-            {
+            "Presunto, sem capa de gordura": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Presunto, sem capa de gordura",
                 "umidade": "77.181",
@@ -13226,7 +13226,7 @@
                 "niacina": "4.00333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Quibe, assado": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Quibe, assado",
                 "umidade": "69.018",
@@ -13256,7 +13256,7 @@
                 "niacina": "1.80666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Quibe, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Quibe, cru",
                 "umidade": "74.509",
@@ -13286,7 +13286,7 @@
                 "niacina": "1.20333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Quibe, frito": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Quibe, frito",
                 "umidade": "53.9636666666667",
@@ -13316,7 +13316,7 @@
                 "niacina": "1.50333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Salame": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Salame",
                 "umidade": "34.7033333333333",
@@ -13346,7 +13346,7 @@
                 "niacina": "12.4866666666667",
                 "vitaminac": "0"
             },
-            {
+            "Toucinho, cru": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Toucinho, cru",
                 "umidade": "27.6066666666667",
@@ -13376,7 +13376,7 @@
                 "niacina": "5.1",
                 "vitaminac": "0"
             },
-            {
+            "Toucinho, frito": {
                 "categoria": "Carnes e derivados",
                 "alimento": "Toucinho, frito",
                 "umidade": "6.32533333333333",
@@ -13406,9 +13406,9 @@
                 "niacina": "5.03333333333333",
                 "vitaminac": "0"
             }
-        ],
-        "Leite e derivados": [
-            {
+        },
+        "Leite e derivados": {
+            "Bebida láctea, pêssego": {
                 "categoria": "Leite e derivados",
                 "alimento": "Bebida láctea, pêssego",
                 "umidade": "87.6933333333333",
@@ -13438,7 +13438,7 @@
                 "niacina": "0.33",
                 "vitaminac": "2.05333333333333"
             },
-            {
+            "Creme de Leite": {
                 "categoria": "Leite e derivados",
                 "alimento": "Creme de Leite",
                 "umidade": "70.8926666666667",
@@ -13468,7 +13468,7 @@
                 "niacina": "0.0",
                 "vitaminac": "0"
             },
-            {
+            "Iogurte, natural": {
                 "categoria": "Leite e derivados",
                 "alimento": "Iogurte, natural",
                 "umidade": "90.04",
@@ -13498,7 +13498,7 @@
                 "niacina": "0",
                 "vitaminac": "0.926666666666667"
             },
-            {
+            "Iogurte, natural, desnatado": {
                 "categoria": "Leite e derivados",
                 "alimento": "Iogurte, natural, desnatado",
                 "umidade": "89.2163333333333",
@@ -13528,7 +13528,7 @@
                 "niacina": "0",
                 "vitaminac": "0.346666666666667"
             },
-            {
+            "Iogurte, sabor abacaxi": {
                 "categoria": "Leite e derivados",
                 "alimento": "Iogurte, sabor abacaxi",
                 "umidade": "*",
@@ -13558,7 +13558,7 @@
                 "niacina": "*",
                 "vitaminac": "0"
             },
-            {
+            "Iogurte, sabor morango": {
                 "categoria": "Leite e derivados",
                 "alimento": "Iogurte, sabor morango",
                 "umidade": "84.6333333333333",
@@ -13588,7 +13588,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Iogurte, sabor pêssego": {
                 "categoria": "Leite e derivados",
                 "alimento": "Iogurte, sabor pêssego",
                 "umidade": "85.0566666666667",
@@ -13618,7 +13618,7 @@
                 "niacina": "0.380333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Leite, condensado": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, condensado",
                 "umidade": "26.96",
@@ -13648,7 +13648,7 @@
                 "niacina": "0",
                 "vitaminac": "2.14333333333333"
             },
-            {
+            "Leite, de cabra": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de cabra",
                 "umidade": "87.0706666666667",
@@ -13678,7 +13678,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Leite, de vaca, achocolatado": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de vaca, achocolatado",
                 "umidade": "80.8936666666667",
@@ -13708,7 +13708,7 @@
                 "niacina": "1.23",
                 "vitaminac": "3.26166666666667"
             },
-            {
+            "Leite, de vaca, desnatado, pó": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de vaca, desnatado, pó",
                 "umidade": "3.1",
@@ -13738,7 +13738,7 @@
                 "niacina": "0.806666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Leite, de vaca, desnatado, UHT": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de vaca, desnatado, UHT",
                 "umidade": "*",
@@ -13768,7 +13768,7 @@
                 "niacina": "1.49",
                 "vitaminac": "0"
             },
-            {
+            "Leite, de vaca, integral": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de vaca, integral",
                 "umidade": "*",
@@ -13798,7 +13798,7 @@
                 "niacina": "1.52",
                 "vitaminac": "0"
             },
-            {
+            "Leite, de vaca, integral, pó": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, de vaca, integral, pó",
                 "umidade": "2.7",
@@ -13828,7 +13828,7 @@
                 "niacina": "0",
                 "vitaminac": "*"
             },
-            {
+            "Leite, fermentado": {
                 "categoria": "Leite e derivados",
                 "alimento": "Leite, fermentado",
                 "umidade": "81.8793333333333",
@@ -13858,7 +13858,7 @@
                 "niacina": "0",
                 "vitaminac": "0.49"
             },
-            {
+            "Queijo, minas, frescal": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, minas, frescal",
                 "umidade": "56.1246666666667",
@@ -13888,7 +13888,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, minas, meia cura": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, minas, meia cura",
                 "umidade": "47.1183333333333",
@@ -13918,7 +13918,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, mozarela": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, mozarela",
                 "umidade": "45.3383333333333",
@@ -13948,7 +13948,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, parmesão": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, parmesão",
                 "umidade": "21.2466666666667",
@@ -13978,7 +13978,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, pasteurizado": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, pasteurizado",
                 "umidade": "54.4213333333333",
@@ -14008,7 +14008,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, petit suisse, morango": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, petit suisse, morango",
                 "umidade": "72.215",
@@ -14038,7 +14038,7 @@
                 "niacina": "2.68333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, prato": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, prato",
                 "umidade": "42.4443333333333",
@@ -14068,7 +14068,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, requeijão, cremoso": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, requeijão, cremoso",
                 "umidade": "62.4663333333333",
@@ -14098,7 +14098,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Queijo, ricota": {
                 "categoria": "Leite e derivados",
                 "alimento": "Queijo, ricota",
                 "umidade": "73.5706666666667",
@@ -14128,9 +14128,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Bebidas (alcoólicas e não alcoólicas)": [
-            {
+        },
+        "Bebidas (alcoólicas e não alcoólicas)": {
+            "Bebida isotônica, sabores variados": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Bebida isotônica, sabores variados",
                 "umidade": "93.5066666666667",
@@ -14160,7 +14160,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Café, infusão 10%": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Café, infusão 10%",
                 "umidade": "97.372",
@@ -14190,7 +14190,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cana, aguardente 1": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Cana, aguardente 1",
                 "umidade": "0",
@@ -14220,7 +14220,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cana, caldo de": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Cana, caldo de",
                 "umidade": "81.7276666666667",
@@ -14250,7 +14250,7 @@
                 "niacina": "0",
                 "vitaminac": "2.779666"
             },
-            {
+            "Cerveja, pilsen 2": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Cerveja, pilsen 2",
                 "umidade": "92.38",
@@ -14280,7 +14280,7 @@
                 "niacina": "2.91666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Chá, erva-doce, infusão 5%": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Chá, erva-doce, infusão 5%",
                 "umidade": "99.6086666666667",
@@ -14310,7 +14310,7 @@
                 "niacina": " ",
                 "vitaminac": " "
             },
-            {
+            "Chá, mate, infusão 5%": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Chá, mate, infusão 5%",
                 "umidade": "99.305",
@@ -14340,7 +14340,7 @@
                 "niacina": " ",
                 "vitaminac": " "
             },
-            {
+            "Chá, preto, infusão 5%": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Chá, preto, infusão 5%",
                 "umidade": "99.3703333333333",
@@ -14370,7 +14370,7 @@
                 "niacina": " ",
                 "vitaminac": " "
             },
-            {
+            "Coco, água de": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Coco, água de",
                 "umidade": "94.252",
@@ -14400,7 +14400,7 @@
                 "niacina": "0",
                 "vitaminac": "2.40866666666667"
             },
-            {
+            "Refrigerante, tipo água tônica": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Refrigerante, tipo água tônica",
                 "umidade": "92.0066666666667",
@@ -14430,7 +14430,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Refrigerante, tipo cola": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Refrigerante, tipo cola",
                 "umidade": "91.2766666666667",
@@ -14460,7 +14460,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Refrigerante, tipo guaraná": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Refrigerante, tipo guaraná",
                 "umidade": "89.9566666666667",
@@ -14490,7 +14490,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Refrigerante, tipo laranja": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Refrigerante, tipo laranja",
                 "umidade": "88.1733333333333",
@@ -14520,7 +14520,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Refrigerante, tipo limão": {
                 "categoria": "Bebidas (alcoólicas e não alcoólicas)",
                 "alimento": "Refrigerante, tipo limão",
                 "umidade": "89.69",
@@ -14550,9 +14550,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Ovos e derivados": [
-            {
+        },
+        "Ovos e derivados": {
+            "Omelete, de queijo": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Omelete, de queijo",
                 "umidade": "60.4916666666667",
@@ -14582,7 +14582,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Ovo, de codorna, inteiro, cru": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de codorna, inteiro, cru",
                 "umidade": "71.67",
@@ -14612,7 +14612,7 @@
                 "niacina": "0.966666666666667",
                 "vitaminac": " "
             },
-            {
+            "Ovo, de galinha, clara, cozida/10minutos": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de galinha, clara, cozida/10minutos",
                 "umidade": "85.2276666666667",
@@ -14642,7 +14642,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Ovo, de galinha, gema, cozida/10minutos": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de galinha, gema, cozida/10minutos",
                 "umidade": "50.0226666666667",
@@ -14672,7 +14672,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Ovo, de galinha, inteiro, cozido/10minutos": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de galinha, inteiro, cozido/10minutos",
                 "umidade": "75.7656666666667",
@@ -14702,7 +14702,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Ovo, de galinha, inteiro, cru": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de galinha, inteiro, cru",
                 "umidade": "75.6",
@@ -14732,7 +14732,7 @@
                 "niacina": "0.75",
                 "vitaminac": " "
             },
-            {
+            "Ovo, de galinha, inteiro, frito": {
                 "categoria": "Ovos e derivados",
                 "alimento": "Ovo, de galinha, inteiro, frito",
                 "umidade": "63.4973333333333",
@@ -14762,9 +14762,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Produtos açucarados": [
-            {
+        },
+        "Produtos açucarados": {
+            "Achocolatado, pó": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Achocolatado, pó",
                 "umidade": "1.10333333333333",
@@ -14794,7 +14794,7 @@
                 "niacina": "4.98666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Açúcar, cristal": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Açúcar, cristal",
                 "umidade": "0.05",
@@ -14824,7 +14824,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Açúcar, mascavo": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Açúcar, mascavo",
                 "umidade": "3.324",
@@ -14854,7 +14854,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Açúcar, refinado": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Açúcar, refinado",
                 "umidade": "0.12",
@@ -14884,7 +14884,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Chocolate, ao leite": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Chocolate, ao leite",
                 "umidade": "1.25666666666667",
@@ -14914,7 +14914,7 @@
                 "niacina": "0.63",
                 "vitaminac": "0"
             },
-            {
+            "Chocolate, ao leite, com castanha do Pará": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Chocolate, ao leite, com castanha do Pará",
                 "umidade": "1.21433333333333",
@@ -14944,7 +14944,7 @@
                 "niacina": "1.36666666666667",
                 "vitaminac": "1.42"
             },
-            {
+            "Chocolate, ao leite, dietético": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Chocolate, ao leite, dietético",
                 "umidade": "1.732",
@@ -14974,7 +14974,7 @@
                 "niacina": "0.79",
                 "vitaminac": "2.04666666666667"
             },
-            {
+            "Chocolate, meio amargo": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Chocolate, meio amargo",
                 "umidade": "1.02166666666667",
@@ -15004,7 +15004,7 @@
                 "niacina": "1.06333333333333",
                 "vitaminac": "2.09666666666667"
             },
-            {
+            "Cocada branca": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Cocada branca",
                 "umidade": "3.42366666666667",
@@ -15034,7 +15034,7 @@
                 "niacina": "0.466666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Doce, de abóbora, cremoso": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Doce, de abóbora, cremoso",
                 "umidade": "43.88",
@@ -15064,7 +15064,7 @@
                 "niacina": "0",
                 "vitaminac": "0.113333333333333"
             },
-            {
+            "Doce, de leite, cremoso": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Doce, de leite, cremoso",
                 "umidade": "27.5",
@@ -15094,7 +15094,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Geléia, mocotó, natural": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Geléia, mocotó, natural",
                 "umidade": "73.48",
@@ -15124,7 +15124,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Glicose de milho": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Glicose de milho",
                 "umidade": "20.4133333333333",
@@ -15154,7 +15154,7 @@
                 "niacina": " ",
                 "vitaminac": " "
             },
-            {
+            "Maria mole": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Maria mole",
                 "umidade": "21.5716666666667",
@@ -15184,7 +15184,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Maria mole, coco queimado": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Maria mole, coco queimado",
                 "umidade": "20.7316666666667",
@@ -15214,7 +15214,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Marmelada": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Marmelada",
                 "umidade": "28.4986666666667",
@@ -15244,7 +15244,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Mel, de abelha": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Mel, de abelha",
                 "umidade": "15.8233333333333",
@@ -15274,7 +15274,7 @@
                 "niacina": "0",
                 "vitaminac": "0.736666666666667"
             },
-            {
+            "Melado": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Melado",
                 "umidade": "22.0866666666667",
@@ -15304,7 +15304,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Quindim": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Quindim",
                 "umidade": "23.93",
@@ -15334,7 +15334,7 @@
                 "niacina": "1.14",
                 "vitaminac": "0"
             },
-            {
+            "Rapadura": {
                 "categoria": "Produtos açucarados",
                 "alimento": "Rapadura",
                 "umidade": "7.09533333333333",
@@ -15364,9 +15364,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Miscelâneas": [
-            {
+        },
+        "Miscelâneas": {
+            "Café, pó, torrado": {
                 "categoria": "Miscelâneas",
                 "alimento": "Café, pó, torrado",
                 "umidade": "2.93",
@@ -15396,7 +15396,7 @@
                 "niacina": "11.8866666666667",
                 "vitaminac": "0"
             },
-            {
+            "Capuccino, pó": {
                 "categoria": "Miscelâneas",
                 "alimento": "Capuccino, pó",
                 "umidade": "2.60333333333333",
@@ -15426,7 +15426,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Fermento em pó, químico": {
                 "categoria": "Miscelâneas",
                 "alimento": "Fermento em pó, químico",
                 "umidade": "7.07666666666667",
@@ -15456,7 +15456,7 @@
                 "niacina": " ",
                 "vitaminac": " "
             },
-            {
+            "Fermento, biológico, levedura, tablete": {
                 "categoria": "Miscelâneas",
                 "alimento": "Fermento, biológico, levedura, tablete",
                 "umidade": "71.901",
@@ -15486,7 +15486,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Gelatina, sabores variados, pó": {
                 "categoria": "Miscelâneas",
                 "alimento": "Gelatina, sabores variados, pó",
                 "umidade": "1.24333333333333",
@@ -15516,7 +15516,7 @@
                 "niacina": "0",
                 "vitaminac": "39.9966666666667"
             },
-            {
+            "Sal, dietético": {
                 "categoria": "Miscelâneas",
                 "alimento": "Sal, dietético",
                 "umidade": "0.596666666666667",
@@ -15546,7 +15546,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Sal, grosso": {
                 "categoria": "Miscelâneas",
                 "alimento": "Sal, grosso",
                 "umidade": "0.413333333333333",
@@ -15576,7 +15576,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Shoyu": {
                 "categoria": "Miscelâneas",
                 "alimento": "Shoyu",
                 "umidade": "70.6266666666667",
@@ -15606,7 +15606,7 @@
                 "niacina": "2.1",
                 "vitaminac": "0"
             },
-            {
+            "Tempero a base de sal": {
                 "categoria": "Miscelâneas",
                 "alimento": "Tempero a base de sal",
                 "umidade": "7.65",
@@ -15636,9 +15636,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Outros alimentos industrializados": [
-            {
+        },
+        "Outros alimentos industrializados": {
+            "Azeitona, preta, conserva": {
                 "categoria": "Outros alimentos industrializados",
                 "alimento": "Azeitona, preta, conserva",
                 "umidade": "68.464",
@@ -15668,7 +15668,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Azeitona, verde, conserva": {
                 "categoria": "Outros alimentos industrializados",
                 "alimento": "Azeitona, verde, conserva",
                 "umidade": "76.259",
@@ -15698,7 +15698,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Chantilly, spray, com gordura vegetal": {
                 "categoria": "Outros alimentos industrializados",
                 "alimento": "Chantilly, spray, com gordura vegetal",
                 "umidade": "55.1426666",
@@ -15728,7 +15728,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Leite, de coco": {
                 "categoria": "Outros alimentos industrializados",
                 "alimento": "Leite, de coco",
                 "umidade": "77.9836666666667",
@@ -15758,7 +15758,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Maionese, tradicional com ovos": {
                 "categoria": "Outros alimentos industrializados",
                 "alimento": "Maionese, tradicional com ovos",
                 "umidade": "58.4236666666667",
@@ -15788,9 +15788,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Alimentos preparados": [
-            {
+        },
+        "Alimentos preparados": {
+            "Acarajé": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Acarajé",
                 "umidade": "50.464",
@@ -15820,7 +15820,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Arroz carreteiro": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Arroz carreteiro",
                 "umidade": "68.0356666666667",
@@ -15850,7 +15850,7 @@
                 "niacina": "1.60333333333333",
                 "vitaminac": " "
             },
-            {
+            "Baião de dois, arroz e feijão-de-corda": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Baião de dois, arroz e feijão-de-corda",
                 "umidade": "69.0513333333333",
@@ -15880,7 +15880,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Barreado": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Barreado",
                 "umidade": "71.1673333333333",
@@ -15910,7 +15910,7 @@
                 "niacina": "2.09333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Bife à cavalo, com contra filé": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Bife à cavalo, com contra filé",
                 "umidade": "54.212",
@@ -15940,7 +15940,7 @@
                 "niacina": "2.91666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Bolinho de arroz": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Bolinho de arroz",
                 "umidade": "41.5",
@@ -15970,7 +15970,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Camarão à baiana": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Camarão à baiana",
                 "umidade": "81.9893333333333",
@@ -16000,7 +16000,7 @@
                 "niacina": "0.306666666666667",
                 "vitaminac": "4.07"
             },
-            {
+            "Charuto, de repolho": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Charuto, de repolho",
                 "umidade": "81.5486666666667",
@@ -16030,7 +16030,7 @@
                 "niacina": "0.32",
                 "vitaminac": "4.77333333333333"
             },
-            {
+            "Cuscuz, de milho, cozido com sal": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Cuscuz, de milho, cozido com sal",
                 "umidade": "71.137",
@@ -16060,7 +16060,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Cuscuz, paulista": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Cuscuz, paulista",
                 "umidade": "68.9366666666667",
@@ -16090,7 +16090,7 @@
                 "niacina": "0.933333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Cuxá, molho": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Cuxá, molho",
                 "umidade": "80.994",
@@ -16120,7 +16120,7 @@
                 "niacina": "1.09666666666667",
                 "vitaminac": "10.28"
             },
-            {
+            "Dobradinha": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Dobradinha",
                 "umidade": "75.267",
@@ -16150,7 +16150,7 @@
                 "niacina": "4.26666666666667",
                 "vitaminac": " "
             },
-            {
+            "Estrogonofe de carne": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Estrogonofe de carne",
                 "umidade": "70.1283333333333",
@@ -16180,7 +16180,7 @@
                 "niacina": "3.25333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Estrogonofe de frango": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Estrogonofe de frango",
                 "umidade": "70.8923333333333",
@@ -16210,7 +16210,7 @@
                 "niacina": "3.36666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Feijão tropeiro mineiro": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Feijão tropeiro mineiro",
                 "umidade": "61.6676666666667",
@@ -16240,7 +16240,7 @@
                 "niacina": "1.43666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Feijoada": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Feijoada",
                 "umidade": "71.8013333333333",
@@ -16270,7 +16270,7 @@
                 "niacina": "0.93",
                 "vitaminac": "0"
             },
-            {
+            "Frango, com açafrão": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Frango, com açafrão",
                 "umidade": "79.5246666666667",
@@ -16300,7 +16300,7 @@
                 "niacina": "1.64",
                 "vitaminac": "5.28"
             },
-            {
+            "Macarrão, molho bolognesa": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Macarrão, molho bolognesa",
                 "umidade": "71.4123333333333",
@@ -16330,7 +16330,7 @@
                 "niacina": "1.43666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Maniçoba": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Maniçoba",
                 "umidade": "76.3953333333333",
@@ -16360,7 +16360,7 @@
                 "niacina": "2.57666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Quibebe": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Quibebe",
                 "umidade": "81.106",
@@ -16390,7 +16390,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Salada, de legumes, com maionese": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Salada, de legumes, com maionese",
                 "umidade": "82.0373333333333",
@@ -16420,7 +16420,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Salada, de legumes, cozida no vapor": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Salada, de legumes, cozida no vapor",
                 "umidade": "89.979",
@@ -16450,7 +16450,7 @@
                 "niacina": "0",
                 "vitaminac": "29.35"
             },
-            {
+            "Salpicão, de frango": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Salpicão, de frango",
                 "umidade": "72.5276666666667",
@@ -16480,7 +16480,7 @@
                 "niacina": "1.47666666666667",
                 "vitaminac": "9.25666666666667"
             },
-            {
+            "Sarapatel": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Sarapatel",
                 "umidade": "74.9513333333333",
@@ -16510,7 +16510,7 @@
                 "niacina": "3.83666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Tabule": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Tabule",
                 "umidade": "85.77",
@@ -16540,7 +16540,7 @@
                 "niacina": "0.6",
                 "vitaminac": "16.2166666666667"
             },
-            {
+            "Tacacá": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Tacacá",
                 "umidade": "85.193",
@@ -16570,7 +16570,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Tapioca, com manteiga": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Tapioca, com manteiga",
                 "umidade": "24.9023333333333",
@@ -16600,7 +16600,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Tucupi, com pimenta-de-cheiro": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Tucupi, com pimenta-de-cheiro",
                 "umidade": "91.8843333333333",
@@ -16630,7 +16630,7 @@
                 "niacina": "0",
                 "vitaminac": "46.3966666666667"
             },
-            {
+            "Vaca atolada": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Vaca atolada",
                 "umidade": "74.9513333333333",
@@ -16660,7 +16660,7 @@
                 "niacina": "0.77",
                 "vitaminac": "0"
             },
-            {
+            "Vatapá": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Vatapá",
                 "umidade": "58.3623333333333",
@@ -16690,7 +16690,7 @@
                 "niacina": "1.79666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Virado à paulista": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Virado à paulista",
                 "umidade": "48.5903333333333",
@@ -16720,7 +16720,7 @@
                 "niacina": "2.59666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Yakisoba": {
                 "categoria": "Alimentos preparados",
                 "alimento": "Yakisoba",
                 "umidade": "69.3766666666667",
@@ -16750,9 +16750,9 @@
                 "niacina": "2.09333333333333",
                 "vitaminac": "0"
             }
-        ],
-        "Leguminosas e derivados": [
-            {
+        },
+        "Leguminosas e derivados": {
+            "Amendoim, grão, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Amendoim, grão, cru",
                 "umidade": "6.427",
@@ -16782,7 +16782,7 @@
                 "niacina": "10.1766666666667",
                 "vitaminac": "0"
             },
-            {
+            "Amendoim, torrado, salgado": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Amendoim, torrado, salgado",
                 "umidade": "1.68666666666667",
@@ -16812,7 +16812,7 @@
                 "niacina": "7.47",
                 "vitaminac": "0"
             },
-            {
+            "Ervilha, em vagem": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Ervilha, em vagem",
                 "umidade": "76.8413333333333",
@@ -16842,7 +16842,7 @@
                 "niacina": "1.16333333333333",
                 "vitaminac": "12.4433333333333"
             },
-            {
+            "Ervilha, enlatada, drenada": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Ervilha, enlatada, drenada",
                 "umidade": "80.1433333333333",
@@ -16872,7 +16872,7 @@
                 "niacina": "0",
                 "vitaminac": " "
             },
-            {
+            "Feijão, carioca, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, carioca, cozido",
                 "umidade": "80.3506333333333",
@@ -16902,7 +16902,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, carioca, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, carioca, cru",
                 "umidade": "13.9966666666667",
@@ -16932,7 +16932,7 @@
                 "niacina": "4.02333333333333",
                 "vitaminac": " "
             },
-            {
+            "Feijão, fradinho, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, fradinho, cozido",
                 "umidade": "80.0093333333333",
@@ -16962,7 +16962,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, fradinho, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, fradinho, cru",
                 "umidade": "12.6966666666667",
@@ -16992,7 +16992,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, jalo, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, jalo, cozido",
                 "umidade": "75.8423333333333",
@@ -17022,7 +17022,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, jalo, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, jalo, cru",
                 "umidade": "13.5333333333333",
@@ -17052,7 +17052,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, preto, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, preto, cozido",
                 "umidade": "80.218",
@@ -17082,7 +17082,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, preto, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, preto, cru",
                 "umidade": "14.8766666666667",
@@ -17112,7 +17112,7 @@
                 "niacina": "4.6",
                 "vitaminac": " "
             },
-            {
+            "Feijão, rajado, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, rajado, cozido",
                 "umidade": "77.8643333333333",
@@ -17142,7 +17142,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, rajado, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, rajado, cru",
                 "umidade": "14.9633333333333",
@@ -17172,7 +17172,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, rosinha, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, rosinha, cozido",
                 "umidade": "82.581",
@@ -17202,7 +17202,7 @@
                 "niacina": "3.69",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, rosinha, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, rosinha, cru",
                 "umidade": "11.9533333333333",
@@ -17232,7 +17232,7 @@
                 "niacina": "3.92333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, roxo, cozido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, roxo, cozido",
                 "umidade": "79.986",
@@ -17262,7 +17262,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Feijão, roxo, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Feijão, roxo, cru",
                 "umidade": "12.6366666666667",
@@ -17292,7 +17292,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Grão-de-bico, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Grão-de-bico, cru",
                 "umidade": "12.29",
@@ -17322,7 +17322,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Guandu, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Guandu, cru",
                 "umidade": "11.449",
@@ -17352,7 +17352,7 @@
                 "niacina": "2.69333333333333",
                 "vitaminac": "1.46666666666667"
             },
-            {
+            "Lentilha, cozida": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Lentilha, cozida",
                 "umidade": "76.2506666666667",
@@ -17382,7 +17382,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Lentilha, crua": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Lentilha, crua",
                 "umidade": "11.4666666666667",
@@ -17412,7 +17412,7 @@
                 "niacina": "5.07333333333333",
                 "vitaminac": " "
             },
-            {
+            "Paçoca, amendoim": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Paçoca, amendoim",
                 "umidade": "1.801",
@@ -17442,7 +17442,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pé-de-moleque, amendoim": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Pé-de-moleque, amendoim",
                 "umidade": "2.91",
@@ -17472,7 +17472,7 @@
                 "niacina": "5.94",
                 "vitaminac": "0"
             },
-            {
+            "Soja, farinha": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Soja, farinha",
                 "umidade": "5.75",
@@ -17502,7 +17502,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Soja, extrato solúvel, natural, fluido": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Soja, extrato solúvel, natural, fluido",
                 "umidade": "91.284",
@@ -17532,7 +17532,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Soja, extrato solúvel, pó": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Soja, extrato solúvel, pó",
                 "umidade": "4.46833333333333",
@@ -17562,7 +17562,7 @@
                 "niacina": "0",
                 "vitaminac": "9.21333333333333"
             },
-            {
+            "Soja, queijo (tofu)": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Soja, queijo (tofu)",
                 "umidade": "86.646",
@@ -17592,7 +17592,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Tremoço, cru": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Tremoço, cru",
                 "umidade": "9.692",
@@ -17622,7 +17622,7 @@
                 "niacina": "0",
                 "vitaminac": "24.9733333333333"
             },
-            {
+            "Tremoço, em conserva": {
                 "categoria": "Leguminosas e derivados",
                 "alimento": "Tremoço, em conserva",
                 "umidade": "67.6843333333333",
@@ -17652,9 +17652,9 @@
                 "niacina": "0",
                 "vitaminac": "0"
             }
-        ],
-        "Nozes e sementes": [
-            {
+        },
+        "Nozes e sementes": {
+            "Amêndoa, torrada, salgada": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Amêndoa, torrada, salgada",
                 "umidade": "3.106",
@@ -17684,7 +17684,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Castanha-de-caju, torrada, salgada": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Castanha-de-caju, torrada, salgada",
                 "umidade": "3.464",
@@ -17714,7 +17714,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Castanha-do-Brasil, crua": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Castanha-do-Brasil, crua",
                 "umidade": "3.524",
@@ -17744,7 +17744,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Coco, cru": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Coco, cru",
                 "umidade": "42.9611666666667",
@@ -17774,7 +17774,7 @@
                 "niacina": "0",
                 "vitaminac": "2.49333333333333"
             },
-            {
+            "Coco,  verde, cru": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Coco,  verde, cru",
                 "umidade": "*",
@@ -17804,7 +17804,7 @@
                 "niacina": "*",
                 "vitaminac": "*"
             },
-            {
+            "Farinha, de mesocarpo de babaçu, crua": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Farinha, de mesocarpo de babaçu, crua",
                 "umidade": "15.8233333333333",
@@ -17834,7 +17834,7 @@
                 "niacina": "2.57666666666667",
                 "vitaminac": "0"
             },
-            {
+            "Gergelim, semente": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Gergelim, semente",
                 "umidade": "3.85933333333333",
@@ -17864,7 +17864,7 @@
                 "niacina": "5.92333333333333",
                 "vitaminac": "0"
             },
-            {
+            "Linhaça, semente": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Linhaça, semente",
                 "umidade": "6.683",
@@ -17894,7 +17894,7 @@
                 "niacina": "0",
                 "vitaminac": "0"
             },
-            {
+            "Pinhão, cozido": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Pinhão, cozido",
                 "umidade": "50.5133333333333",
@@ -17924,7 +17924,7 @@
                 "niacina": "0",
                 "vitaminac": "27.69"
             },
-            {
+            "Pupunha, cozida": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Pupunha, cozida",
                 "umidade": "54.46",
@@ -17954,7 +17954,7 @@
                 "niacina": "0",
                 "vitaminac": "2.18"
             },
-            {
+            "Noz, crua": {
                 "categoria": "Nozes e sementes",
                 "alimento": "Noz, crua",
                 "umidade": "6.24466666666667",
@@ -17984,6 +17984,6 @@
                 "niacina": "1.08333333333333",
                 "vitaminac": "0"
             }
-        ]
+        }
     }
 }

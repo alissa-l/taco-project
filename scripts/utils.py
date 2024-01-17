@@ -3,6 +3,7 @@ import pandas as pd
 import json
 from unidecode import unidecode
 
+# Extrai todos os nutrientes da primeira linha da planilha
 def get_nutrientes(worksheet):
     nutrientes = []
     for i in range(0, len(worksheet.row(0))):
@@ -30,6 +31,7 @@ def get_nutrientes(worksheet):
 
     return nutrientes
 
+# Extrai todas as unidades da segunda linha da planilha
 def get_unidades(worksheet):
     unidades = []
     for i in range(0, len(worksheet.row(0))):
@@ -39,6 +41,7 @@ def get_unidades(worksheet):
 
     return unidades
 
+# Extrai todas as categorias
 def get_categorias(worksheet):
     categorias = {}
     lines = []
@@ -67,10 +70,10 @@ def get_categorias(worksheet):
             lines = []
 
     
-        
+    # Indice de cada categoria
     return categorias
 
-
+# Extrai todos os alimentos com base nas categorias
 def get_alimentos(worksheet, categorias):
     
     alimentos = []
@@ -91,6 +94,7 @@ def get_alimentos(worksheet, categorias):
     
     return alimentos
 
+# Função principal de execução de todos os métodos anteriores
 def extractor():
     taco = xlrd.open_workbook('../data/Taco_4a_edicao_2011.xls')
     worksheet = taco.sheet_by_index(0)
@@ -102,6 +106,7 @@ def extractor():
 
     return nutrientes, unidades, alimentos
 
+# Exporta os dados para um arquivo csv
 def export(nutrientes, alimentos):
     colunas = ['categoria', 'alimento']
     
@@ -112,24 +117,50 @@ def export(nutrientes, alimentos):
 
     df.to_csv('../data/taco2011.csv', index=False, encoding='utf-8')
 
+# Exporta os dados para um arquivo json
+# O arquivo segue o seguinte formato:
+    # {
+    #     "Categorias": [}
+    #         "categoria1",
+    #         "categoria2",
+    #     "NutrientesUnidades": {
+    #         "nutriente1": "unidade1",
+    #         "nutriente2": "unidade2",
+    #     },
+    #     "Data": {
+    #         "categoria1": {
+    #             "alimento1": {
+    #             },
+    #             "alimento2": {
+    #             },
+    #         },
+    
 def jsonify(nutrientes, unidades):
 
     df = pd.read_csv('../data/taco2011.csv')
+
+    # Dicionario pra criar a estrutura do json
     final_json = {'Categorias': [], 'NutrientesUnidades': {}, 'Data': {}}
 
+    # Adiciona os nutrientes e unidades no dicionario
     for i in range(0, len(nutrientes)):
         final_json['NutrientesUnidades'][nutrientes[i]] = unidades[i] 
 
+    # Adiciona as categorias no dicionario
     for i in df['categoria'].unique():
         final_json['Categorias'].append(i)
-        final_json['Data'][i] = []
+        final_json['Data'][i] = {}
 
 
+    # Adiciona os alimentos no dicionario
     for j in df.to_dict('records'):
         cat = j['categoria']
-        final_json['Data'][cat].append(j)
+        nome = str(j['alimento'])
+        final_json['Data'][cat][nome] = j
 
     
-    
-    json.dump(final_json, open('../data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
+    # Exportação apenas para visualização
+    #json.dump(final_json, open('../data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
+        
+    # Exportação final
     json.dump(final_json, open('../taco-site/src/assets/data/taco2011.json', 'w'), indent=4, ensure_ascii=False)
