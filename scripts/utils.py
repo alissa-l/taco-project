@@ -108,7 +108,7 @@ def extractor():
 
 # Exporta os dados para um arquivo csv
 def export(nutrientes, alimentos):
-    colunas = ['categoria', 'alimento']
+    colunas = ['categoria', 'nome']
     
     for i in range(0, len(nutrientes)):
         colunas.append(f'{nutrientes[i]}')
@@ -155,7 +155,7 @@ def jsonify(nutrientes, unidades):
     # Adiciona os alimentos no dicionario
     for j in df.to_dict('records'):
         cat = j['categoria']
-        nome = str(j['alimento'])
+        nome = str(j['nome'])
         final_json['Data'][cat][nome] = j
 
     
