@@ -140,7 +140,7 @@ def jsonify(nutrientes, unidades):
     df = pd.read_csv('../data/taco2011.csv')
 
     # Dicionario pra criar a estrutura do json
-    final_json = {'Categorias': [], 'NutrientesUnidades': {}, 'Data': {}}
+    final_json = {'Categorias': [], 'NutrientesUnidades': {}, 'Alimentos': {}}
 
     # Adiciona os nutrientes e unidades no dicionario
     for i in range(0, len(nutrientes)):
@@ -149,14 +149,14 @@ def jsonify(nutrientes, unidades):
     # Adiciona as categorias no dicionario
     for i in df['categoria'].unique():
         final_json['Categorias'].append(i)
-        final_json['Data'][i] = {}
+        final_json['Alimentos'][i] = {}
 
 
     # Adiciona os alimentos no dicionario
     for j in df.to_dict('records'):
         cat = j['categoria']
         nome = str(j['nome'])
-        final_json['Data'][cat][nome] = j
+        final_json['Alimentos'][cat][nome] = j
 
     
     # Exportação apenas para visualização

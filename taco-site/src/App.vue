@@ -1,7 +1,7 @@
 <template>
 
   <div class="container">
-    <div v-if="showCategorias" class="row" v-for="chunk in categorias">
+    <div v-if="showCategorias" class="row" v-for="categoria in categoriasMap">
       <div class="col" v-for="categoria in chunk">
         <CategoriaComponent :categoria="categoria" >
         </CategoriaComponent>
@@ -9,14 +9,14 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
       <div class="col" v-for="alimento in chunk">
         <AlimentoComponent :alimentoObj="alimento" >
         </AlimentoComponent>
       </div>
     </div>
-  </div>
+  </div> -->
 
 </template>
 
@@ -25,48 +25,46 @@
 //Se precisar dividir os repos
 import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
+import { categoriasMap } from "./classes/categoriasMap.js";
 
 export default {
     name: 'App',
     data() {
         return {
+          data: JSON.parse(JSON.stringify(tacoData)),
           categorias: [],
-          alimentos: [],
+          alimentosPorCategoria: {},
           alimentosChunked: [],
-          unidades: [],
+          nutrientesUnidades: {},
           showAlimentos: false,
           showCategorias: true,
+          categoriasMap: categoriasMap,
         }
     },
     beforeMount() {
-      this.getData();
+      this.getAlimentos();
     },
     methods: {
-        getData() {
+        getAlimentos() {
 
+          this.data.Categorias.forEach(element => {
+            this.categorias.push(element);
+          });
 
-          this.categorias = tacoData['Categorias'];
-          
-          console.log(this.categoriass)
+          for (let nutriente in this.data.NutrientesUnidades) {
+            this.nutrientesUnidades[nutriente] = this.data.NutrientesUnidades[nutriente];
+          }
 
-          let myData = tacoData['Data'];
-          let unidades = tacoData['NutrientesUnidades'];
+          for (let categoria in this.data.Alimentos) {
 
-          for (let i = 0; i < categorias.length; i++) {
-            let alimentosCategoria = myData[categorias[i]];
+            this.alimentosPorCategoria[categoria] = [];
 
-            for (let j = 0; j < alimentosCategoria.length; j++) {
-              let alimento = Object.assign(new Alimento, alimentosCategoria[j]);
-              this.alimentos.push(alimento);
+            for (let alimentoKey in this.data.Alimentos[categoria]) {
+              let alimento = Object.assign(new Alimento(), this.data.Alimentos[categoria][alimentoKey]);
+              this.alimentosPorCategoria[categoria].push(alimento)
             }
+            
           }
-
-          for (let i = 0; i < unidades.length; i++) {
-            let unidade = unidades[i];
-            this.unidades.push(unidade);
-          }
-
-          this.dataChunk(this.alimentos, 3);
           
         },
         dataChunk(array, size) {
