@@ -1,10 +1,12 @@
 <template>
 
+
+  <h1 class="text-gray-500"> Taco Project </h1>
+
   <div class="container">
-    <div v-if="showCategorias" class="row" v-for="categoria in categoriasMap">
-      <div class="col" v-for="categoria in chunk">
-        <CategoriaComponent :categoria="categoria" >
-        </CategoriaComponent>
+    <div v-if="showCategorias" class="row" v-for="categoria in categorias">
+      <div class="col">
+        <h2>{{ categoria }}</h2>
       </div>
     </div>
   </div>
@@ -25,7 +27,6 @@
 //Se precisar dividir os repos
 import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
-import { categoriasMap } from "./classes/categoriasMap.js";
 
 export default {
     name: 'App',
@@ -38,7 +39,6 @@ export default {
           nutrientesUnidades: {},
           showAlimentos: false,
           showCategorias: true,
-          categoriasMap: categoriasMap,
         }
     },
     beforeMount() {
