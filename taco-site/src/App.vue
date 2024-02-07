@@ -11,6 +11,8 @@
     </div>
   </div>
 
+  <AlimentoModal></AlimentoModal>
+
   <!-- <div class="container">
     <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
       <div class="col" v-for="alimento in chunk">
