@@ -1,23 +1,13 @@
 <template>
-
   <div class="container">
-    <div v-if="showCategorias" class="row" v-for="chunk in categorias">
-      <div class="col" v-for="categoria in chunk">
-        <CategoriaComponent :categoria="categoria" >
-        </CategoriaComponent>
-      </div>
+    <div style="cursor: pointer;" v-if="showCategorias" v-on:click="showCategoria(categoria)" class="row" v-for="categoria in categorias">
+        <h2 class="nomeAlimento">{{ categoria }}</h2>
     </div>
   </div>
 
-  <div class="container">
-    <div v-if="showAlimentos" class="row" v-for="chunk in alimentosChunked">
-      <div class="col" v-for="alimento in chunk">
-        <AlimentoComponent :alimentoObj="alimento" >
-        </AlimentoComponent>
-      </div>
-    </div>
+  <div v-if="showAlimentos">
+    <CategoriaComponent :nome="categoriaSelecionada" :alimentos="alimentosByCategoria[categoriaSelecionada]"></CategoriaComponent>
   </div>
-
 </template>
 
 <script>
@@ -25,17 +15,18 @@
 //Se precisar dividir os repos
 import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
+import CategoriaComponent from "./components/CategoriaComponent.vue";
 
 export default {
     name: 'App',
     data() {
         return {
           categorias: [],
-          alimentos: [],
-          alimentosChunked: [],
+          alimentosByCategoria: {},
           unidades: [],
-          showAlimentos: false,
           showCategorias: true,
+          showAlimentos: false,
+          categoriaSelecionada: [],
         }
     },
     beforeMount() {
@@ -47,34 +38,32 @@ export default {
 
           this.categorias = tacoData['Categorias'];
           
-          console.log(this.categoriass)
-
           let myData = tacoData['Data'];
           let unidades = tacoData['NutrientesUnidades'];
 
-          for (let i = 0; i < categorias.length; i++) {
-            let alimentosCategoria = myData[categorias[i]];
-
-            for (let j = 0; j < alimentosCategoria.length; j++) {
-              let alimento = Object.assign(new Alimento, alimentosCategoria[j]);
-              this.alimentos.push(alimento);
+          for (let i = 0; i < this.categorias.length; i++) {
+            this.alimentosByCategoria[this.categorias[i]] = [];
+            let alimentosCategoria = myData[this.categorias[i]];
+            let j = 0;
+            for (let alimento in alimentosCategoria) {
+              let alimentoObj = Object.assign(new Alimento, alimentosCategoria[alimento]);
+              this.alimentosByCategoria[this.categorias[i]].push(alimentoObj);
+              j++;
             }
           }
 
           for (let i = 0; i < unidades.length; i++) {
             let unidade = unidades[i];
             this.unidades.push(unidade);
-          }
-
-          this.dataChunk(this.alimentos, 3);
-          
+          }          
         },
-        dataChunk(array, size) {
-          let chunkedArray = [];
-          for (let i = 0; i < array.length; i += size) {
-            chunkedArray.push(array.slice(i, i + size));
-          }
-          this.alimentosChunked = chunkedArray;
+        showCategoria(categoria) {
+          console.log(this.categorias)
+          console.log(this.alimentosByCategoria[categoria])
+          console.log(categoria)
+          this.categoriaSelecionada = categoria;
+          this.showCategorias = false;
+          this.showAlimentos = true;
         }
     },    
 }

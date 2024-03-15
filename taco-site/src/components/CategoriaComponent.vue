@@ -1,23 +1,36 @@
 
 <template>
 
-    <img  alt="">
-    <h2 class="nomeAlimento">{{ alimento }}</h2>
+    <h1> {{ nome }} </h1>
+    <AlimentoComponent v-for="aliment in alimentos" :alimentoObj="aliment"></AlimentoComponent>
 
 </template>
 
 <script>
 
+import { Alimento } from '@/classes/alimento';
+import AlimentoComponent from './AlimentoComponent.vue';
 
 export default {
-    name: 'Alimento',
+    name: 'Categoria',
     props: {
-        categoria: {
+        nome: {
             type: String,
+            required: true,
+        },
+        alimentos: {
+            type: Array,
+            default: () => [],
+            validator: (value) => {
+                return value.every((item) => item instanceof Alimento);
+            },
         }
     },
     data() {
-        return this.alimentoObj;
+        return this.alimentos;
+    },
+    mounted() {
+        console.log(this.alimentos);
     }
 }
 

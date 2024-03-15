@@ -1,7 +1,7 @@
 export class Alimento {
-    constructor(categoria, alimento, umidade, energia, energiaKj, proteina, lipideos, colesterol, carboidrato, alimentar, cinzas, calcio, magnesio, manganes, fosforo, ferro, sodio, potassio, cobre, zinco, retinol, re, rae, tiamina, riboflavina, piridoxina, niacina, vitaminaC) {
+    constructor(categoria, nome, umidade, energia, energiaKj, proteina, lipideos, colesterol, carboidrato, alimentar, cinzas, calcio, magnesio, manganes, fosforo, ferro, sodio, potassio, cobre, zinco, retinol, re, rae, tiamina, riboflavina, piridoxina, niacina, vitaminaC) {
       this.categoria = categoria;
-      this.alimento = alimento;
+      this.nome = nome;
       this.umidade = umidade;
       this.energia = energia;
       this.energiaKj = energiaKj;
@@ -27,6 +27,6 @@ export class Alimento {
       this.riboflavina = riboflavina;
       this.piridoxina = piridoxina;
       this.niacina = niacina;
-      this.vitaminaC = vitaminaC;
+      this.vitaminac = vitaminaC;
     }
   }
