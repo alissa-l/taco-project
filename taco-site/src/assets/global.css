@@ -39,3 +39,7 @@
   text-align: center;
   margin: 5px;
 }
+
+.alimento {
+  border: 1px solid black;
+}
