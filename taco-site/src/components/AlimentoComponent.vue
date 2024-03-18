@@ -44,13 +44,15 @@ export default {
     props: {
         alimentoObj: {
             type: Object,
+        },
+        mostrarDetalhes: {
+            type: Boolean,
+            default: false,
         }
     },
     data() {
         return {
             alimentoObj: this.alimentoObj,
-            mostrarDetalhes: false,
-
         }
     }
 }

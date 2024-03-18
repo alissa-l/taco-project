@@ -26,9 +26,6 @@ export default {
             },
         }
     },
-    data() {
-        return this.alimentos;
-    },
     mounted() {
         console.log(this.alimentos);
     }
