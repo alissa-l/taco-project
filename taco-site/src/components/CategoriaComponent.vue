@@ -1,8 +1,10 @@
 
 <template>
 
-    <h1> {{ nome }} </h1>
-    <AlimentoComponent v-for="aliment in alimentos" :alimentoObj="aliment"></AlimentoComponent>
+    <h2> {{ nome }} </h2>
+    <section class="md-container columns-3">
+        <AlimentoComponent v-for="aliment in alimentos" :alimentoObj="aliment" :mostrarDetalhes="false"></AlimentoComponent>
+    </section>
 
 </template>
 
@@ -25,9 +27,6 @@ export default {
                 return value.every((item) => item instanceof Alimento);
             },
         }
-    },
-    mounted() {
-        console.log(this.alimentos);
     }
 }
 

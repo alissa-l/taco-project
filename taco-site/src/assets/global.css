@@ -1,4 +1,20 @@
-.container {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold m-10;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+}
+
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +58,4 @@
 
 .alimento {
   border: 1px solid black;
-}
+} */

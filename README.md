@@ -11,7 +11,7 @@ Este projeto tem como objetivo extrair e analisar informações da TACO (Tabela 
 
 2. **Parse com Pandas e exportação para JSON:** Utiliza a biblioteca Pandas para realizar o parse dos dados, proporcionando uma estrutura tabular adequada. Para fornecer os dados para o front-end a exportação final é feita por meio de um arquivo JSON
 
-3. **Front-end em Vue (Em Desenvolvimento):** Desenvolvimento de um front-end em Vue para a visualização dos dados de todos os alimentos da tabela.
+3. **Front-end em Vue :** Front-end em Vue para a visualização dos dados de todos os alimentos da tabela.
 
 ## Como Usar
 
@@ -37,5 +37,6 @@ Este projeto tem como objetivo extrair e analisar informações da TACO (Tabela 
 
     ```bash
     cd taco-site
+    npm i
     npm run dev
    ```
