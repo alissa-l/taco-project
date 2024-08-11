@@ -1,6 +1,6 @@
 <template>
 
-  <div class="flex flex-row flex-nowrap items-center justify-center">
+  <div class="flex flex-row flex-wrap items-center justify-center mb-10">
 
     <!-- Seta pra voltar -->
     <span class="justify-self-start cursor-pointer" v-if="mostrarAlimentos" @click="invertExibicao()">
@@ -12,21 +12,25 @@
 
     </span>
 
-    <!-- Titulo -->
-    <h1 class="justify-self-center">Tabela Taco</h1>
+    <!-- Titulo e subtitulo -->
+    <div class="flex flex-col flex-wrap items-center justify-center">
+      <h1 class="justify-self-center text-center text-black">Tabela Taco</h1>
+      <h2 class="justify-self-center text-gray-800">Tabela Brasileira de Composição de Alimentos</h2>
+    </div>
 
   </div>
+
 
   <!-- Container com categorias -->
   <section class="md:container columns-3 object-center pb-5">
     <div style="cursor: pointer;" v-if="mostrarCategorias" v-on:click="showCategoria(categoria)" class="row"
       v-for="categoria in categorias">
-      <h2 class="nomeAlimento">{{ categoria }}</h2>
+      <h3 class="nomeAlimento">{{ categoria }}</h3>
     </div>
   </section>
 
   <!-- Componente da categoria se estiver selecionada -->
-  <section v-if="mostrarAlimentos">
+  <section class="md:container" v-if="mostrarAlimentos">
     <CategoriaComponent :nome="categoriaSelecionada" :alimentos="alimentosPorCategoria[categoriaSelecionada]">
     </CategoriaComponent>
   </section>
@@ -34,10 +38,13 @@
 
 <script>
 
+import { initFlowbite } from 'flowbite'
+
 //Se precisar dividir os repos
 import tacoData from "./assets/data/taco2011.json";
 import { Alimento } from "./classes/alimento.js";
 import CategoriaComponent from "./components/CategoriaComponent.vue";
+
 
 export default {
   name: 'App',
@@ -89,6 +96,9 @@ export default {
       this.mostrarCategorias = !this.mostrarCategorias;
       this.mostrarAlimentos = !this.mostrarAlimentos;
     }
+  },
+  onMounted() {
+    initFlowbite()
   },
 }
 

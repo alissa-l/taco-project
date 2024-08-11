@@ -7,12 +7,13 @@
         <p>Proteínas: {{ parseFloat(alimentoObj.proteina).toFixed(0) }}</p>
         <p>Carboidratos: {{ parseFloat(alimentoObj.carboidrato).toFixed(0) }}</p>
 
-        <p style="cursor:pointer" @click="invertDetails()"> {{ showDetalhes ? "Esconder detalhes" : "Mostrar detalhes" }} </p>
+        <p style="cursor:pointer" @click="showDetalhesModal(alimentoObj.nome)"> {{ showDetalhes ? "Esconder detalhes" : "Mostrar detalhes" }} </p>
 
-        <div v-if="showDetalhes">
-            <DetalhesAlimento :alimentoDetalhe="alimentoObj"/>
-        </div>
-
+        <vs-modal :ref=alimentoObj.nome v-model="showDetalhes" :title="'Detalhes de ' + alimentoObj.nome">
+            <section v-if=showDetalhes>
+                <DetalhesAlimento :alimentoDetalhe=alimentoObj></DetalhesAlimento>
+            </section>
+        </vs-modal>
     </div>
 
 </template>
@@ -21,29 +22,27 @@
 
 import DetalhesAlimento from './DetalhesAlimento.vue'
 import {ref} from 'vue'
+import VsModal from '@vuesimple/vs-modal';
 
 export default {
     name: 'Alimento',
-    components: {DetalhesAlimento},
+    components: {VsModal, DetalhesAlimento},
     props: {
         alimentoObj: {
             type: Object,
         },
-        mostrarDetalhes: {
-            type: Boolean,
-            default: false,
+    },
+    data() {
+        return {
+            showDetalhes: false,
         }
     },
-    setup(props) {
-        const showDetalhesLet = ref(props.mostrarDetalhes)
-        let showDetalhes = ref(showDetalhesLet.value)
-
-        const invertDetails = () => {
-            showDetalhes.value = !showDetalhes.value
+    methods: {
+        showDetalhesModal(nome) {
+            this.$refs[nome].open();
+            this.showDetalhes = true;
         }
-
-        return {showDetalhes, invertDetails}
-    }
+    },
 }
 
 </script>

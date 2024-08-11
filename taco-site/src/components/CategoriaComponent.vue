@@ -1,10 +1,10 @@
-
 <template>
 
-    <h2> {{ nome }} </h2>
-    <section class="md-container columns-3 ">
-        <AlimentoComponent class="m-3" v-for="aliment in alimentos" :alimentoObj="aliment" :mostrarDetalhes="false"></AlimentoComponent>
+    <h2 class="text-center"> {{ nome }} </h2>
+    <section class="md:container grid grid-cols-3 grid-flow-row">
+        <AlimentoComponent class="h-1/5 text-nowrap" v-for="aliment in alimentos" :alimentoObj="aliment" :mostrarDetalhes="false"></AlimentoComponent>
     </section>
+    
 
 </template>
 

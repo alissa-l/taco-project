@@ -4,10 +4,10 @@
 
 @layer base {
   h1 {
-    @apply text-4xl font-bold m-10;
+    @apply text-5xl font-bold m-10;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-4xl;
   }
   h3 {
     @apply text-lg;

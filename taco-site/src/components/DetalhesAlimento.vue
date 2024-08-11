@@ -1,5 +1,8 @@
 <template>
     <section>
+        <p>Kcal: {{ parseFloat(alimentoDetalhe.energia).toFixed(0) }}</p>
+        <p>Proteínas: {{ parseFloat(alimentoDetalhe.proteina).toFixed(0) }}</p>
+        <p>Carboidratos: {{ parseFloat(alimentoDetalhe.carboidrato).toFixed(0) }}</p>
         <p>Fibra Alimentar: {{ parseFloat(alimentoDetalhe.alimentar).toFixed(0) }}</p>
         <p>Ácido Graxo Saturado: {{ parseFloat(alimentoDetalhe.agSaturado).toFixed(0) }}</p>
         <p>Ácido Graxo Monoinsaturado: {{ parseFloat(alimentoDetalhe.agMonoinsaturado).toFixed(0) }}</p>
@@ -27,6 +30,8 @@
 
 <script>
 
+import { Modal } from 'flowbite';
+import { Alimento } from '@/classes/alimento';
 
 export default {
     name: 'alimentoDetalhe',
@@ -38,6 +43,9 @@ export default {
             type: Array,
             default: () => [],
         }
+    },
+    setup(props) {
+        return {props}
     }
 }
 
